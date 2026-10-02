@@ -10,12 +10,17 @@ import { RelatedBlogLinks } from '../components/blog/RelatedBlogLinks';
 
 const SLUGS = [
   'srivilliputtur',
+  'rajapalayam',
   'madurai',
   'chennai',
   'bengaluru',
   'coimbatore',
+  'tirunelveli',
   'rameswaram',
   'kodaikanal',
+  'kanyakumari',
+  'courtallam',
+  'thoothukudi',
   'thiruvananthapuram',
 ] as const;
 

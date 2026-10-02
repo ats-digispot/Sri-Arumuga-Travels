@@ -6,7 +6,7 @@ import { CONTACT_DATA, whatsappHref } from './contact.ts';
 import { BRAND } from './content.ts';
 import { en } from '../i18n/en.ts';
 import { pagesEn } from '../i18n/pages/en.ts';
-import { SEO_ROUTES, BUSINESS, type SeoRoute } from './seoConfig.ts';
+import { SEO_ROUTES, BUSINESS, AREA_SERVED, type SeoRoute } from './seoConfig.ts';
 import { getBlogSlugsForPath } from '../content/blog/relatedByRoute.ts';
 import { getPost } from '../content/blog/registry.ts';
 
@@ -78,11 +78,8 @@ export function buildHomeJsonLd(siteUrl: string): Record<string, unknown> {
         opens: item.opens,
         closes: item.closes,
       })),
-      areaServed: [
-        { '@type': 'City', name: 'Srivilliputtur' },
-        { '@type': 'State', name: 'Tamil Nadu' },
-        { '@type': 'Country', name: 'India' },
-      ],
+      areaServed: AREA_SERVED.map((a) => ({ ...a })),
+      keywords: 'Srivilliputtur taxi, Srivilliputhur travels, outstation cab, Madurai airport taxi, Andal Temple, Rajapalayam cab',
       potentialAction: [
         {
           '@type': 'ContactAction',
@@ -111,8 +108,9 @@ export function buildHomeJsonLd(siteUrl: string): Record<string, unknown> {
       '@type': 'WebPage',
       '@id': `${siteUrl}/#webpage`,
       url: pageUrl,
-      name: 'Srivilliputtur Taxi & Outstation Cab | Sri Arumuga Travels',
-      description: t.hero.lede,
+      name: SEO_ROUTES.find((r) => r.path === '/')!.title,
+      description: SEO_ROUTES.find((r) => r.path === '/')!.description,
+      keywords: 'taxi and travels in Srivilliputtur, Srivilliputhur, Sri Arumuga Travels',
       isPartOf: { '@id': `${siteUrl}/#website` },
       about: { '@id': `${siteUrl}/#business` },
       primaryImageOfPage: heroImage,
@@ -252,6 +250,7 @@ function pageJsonLd(siteUrl: string, route: SeoRoute, faqs?: { q: string; a: str
         opens: item.opens,
         closes: item.closes,
       })),
+      areaServed: AREA_SERVED.map((a) => ({ ...a })),
     },
     {
       '@type': 'WebPage',
@@ -259,6 +258,7 @@ function pageJsonLd(siteUrl: string, route: SeoRoute, faqs?: { q: string; a: str
       url: pageUrl,
       name: route.title,
       description: route.description,
+      keywords: route.title,
       isPartOf: { '@id': `${siteUrl}/#website` },
       about: { '@id': `${siteUrl}/#business` },
       primaryImageOfPage: heroImage,

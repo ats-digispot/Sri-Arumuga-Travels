@@ -5,6 +5,31 @@ const BY_PATH: Record<string, string[]> = {
     'andal-temple-visit-tips',
     'srivilliputtur-payanam-vazhikatti',
   ],
+  '/locations/rajapalayam': [
+    'srivilliputtur-day-trip-ideas',
+    'local-taxi-vs-outstation-cab',
+    'airport-pickup-tips-madurai',
+  ],
+  '/locations/tirunelveli': [
+    'tirunelveli-travel-hub',
+    'southern-tamil-nadu-road-trip-planner',
+    'courtallam-tenkasi-travel-notes',
+  ],
+  '/locations/kanyakumari': [
+    'kanyakumari-from-southern-tn',
+    'tirunelveli-travel-hub',
+    'southern-tamil-nadu-road-trip-planner',
+  ],
+  '/locations/courtallam': [
+    'courtallam-tenkasi-travel-notes',
+    'tirunelveli-travel-hub',
+    'monsoon-travel-tips-tamil-nadu',
+  ],
+  '/locations/thoothukudi': [
+    'thoothukudi-coastal-travel',
+    'tirunelveli-travel-hub',
+    'kanyakumari-from-southern-tn',
+  ],
   '/locations/madurai': [
     'madurai-from-srivilliputtur-travel-tips',
     'airport-pickup-tips-madurai',

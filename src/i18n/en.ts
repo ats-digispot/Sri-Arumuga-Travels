@@ -7,7 +7,7 @@ export const en: Dictionary = {
     shortName: 'Sri Arumuga',
     tagline: 'Travel from Srivilliputtur to anywhere in India',
     promise: 'A calm ride. A clear conversation.',
-    homeBase: 'Srivilliputtur, Tamil Nadu',
+    homeBase: 'Srivilliputtur (Srivilliputhur), Tamil Nadu',
     navSubtitle: 'Travels · Srivilliputtur',
   },
   lang: {
@@ -42,10 +42,10 @@ export const en: Dictionary = {
   },
   hero: {
     basedIn: 'Based in',
-    titleBefore: 'Travel from Srivilliputtur to',
+    titleBefore: 'Taxi and travels in Srivilliputtur to',
     titleAccent: 'anywhere in India',
     lede:
-      'Quiet sedan journeys for families, pilgrims, and everyday travellers — planned by phone or WhatsApp before you leave town.',
+      'Sri Arumuga Travels — taxi and sedan journeys from Srivilliputtur (Srivilliputhur) for families, pilgrims, and everyday travellers. Outstation cab, Madurai airport links, and temple trips — planned by phone or WhatsApp.',
     orEnquiry: 'Or send an enquiry →',
     explore: 'Explore',
     sceneAlt:
@@ -53,9 +53,9 @@ export const en: Dictionary = {
   },
   services: {
     eyebrow: 'What we offer',
-    title: 'Practical journeys from a town that knows the road.',
+    title: 'Taxi service and outstation cab from Srivilliputtur.',
     lede:
-      'Temple mornings, airport evenings, family visits far from home — we plan the trip with you first, then drive it carefully.',
+      'Temple mornings, Madurai airport evenings, Rajapalayam hops, and family visits far from home — we plan the trip with you first, then drive it carefully.',
     ctaHint: 'Not sure which fits? Tell us your plan — we will suggest a sensible way to travel.',
     cta: 'Ask about your trip',
     items: [
@@ -94,11 +94,16 @@ export const en: Dictionary = {
     enquireTo: 'Enquire about travel to',
     items: [
       { id: 'madurai', name: 'Madurai', note: 'Temple city & airport' },
-      { id: 'chennai', name: 'Chennai', note: 'City & station links' },
-      { id: 'bengaluru', name: 'Bengaluru', note: 'Work and family travel' },
-      { id: 'coimbatore', name: 'Coimbatore', note: 'West Tamil Nadu' },
+      { id: 'chennai', name: 'Chennai', note: 'One-way & station links' },
+      { id: 'rajapalayam', name: 'Rajapalayam', note: 'Nearby town hops' },
       { id: 'rameswaram', name: 'Rameswaram', note: 'Pilgrimage road' },
+      { id: 'kanyakumari', name: 'Kanyakumari', note: 'Land’s-end coast' },
+      { id: 'courtallam', name: 'Courtallam', note: 'Waterfalls · Tenkasi' },
+      { id: 'tirunelveli', name: 'Tirunelveli', note: 'Southern TN hub' },
+      { id: 'thoothukudi', name: 'Thoothukudi', note: 'Coastal city' },
+      { id: 'coimbatore', name: 'Coimbatore', note: 'West Tamil Nadu' },
       { id: 'kodaikanal', name: 'Kodaikanal', note: 'Hill weekends' },
+      { id: 'bengaluru', name: 'Bengaluru', note: 'Work and family travel' },
       { id: 'tvm', name: 'Thiruvananthapuram', note: 'Kerala coast' },
       { id: 'anywhere', name: 'Anywhere in India', note: 'Name the place — we plan the road' },
     ],
@@ -233,7 +238,12 @@ export const en: Dictionary = {
       {
         question: 'What kind of vehicles do you offer?',
         answer:
-          'We provide a wide range of vehicles suitable for different needs — from comfortable sedans (ideal for couples and small families) to larger family cars and multi-passenger options with ample luggage space for highway and pilgrimage travel.',
+          'We focus on small-car / sedan travel from Srivilliputtur — comfortable sedans such as Toyota Etios for couples and small families, with larger family cars when extra space is needed. We are not a tempo traveller, Innova fleet, or tourist-bus operator, and we do not publish per-km rate cards online.',
+      },
+      {
+        question: 'How do I call a taxi in Srivilliputtur?',
+        answer:
+          'Call Sri Arumuga Travels on +91 98942 20028 or +91 86676 69560, WhatsApp the same primary number, or use the enquire form. Say pickup (Srivilliputtur / Srivilliputhur, Rajapalayam, or nearby), destination, date, and passengers.',
       },
     ],
   },

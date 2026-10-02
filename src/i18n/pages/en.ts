@@ -21,27 +21,27 @@ export const pagesEn: PagesCopy = {
   },
   servicesHub: {
     eyebrow: 'What we offer',
-    title: 'Services from Srivilliputtur',
-    lede: 'Temple mornings, airport evenings, family visits far from home — we plan the trip with you first, then drive it carefully from Srivilliputtur.',
+    title: 'Taxi service & car hire from Srivilliputtur',
+    lede: 'Taxi and sedan car hire from Srivilliputtur (Srivilliputhur) — temple mornings, Madurai airport evenings, local day trips, and outstation family visits. We plan with you first, then drive carefully.',
     ctaHint: 'Not sure which fits? Tell us your plan — we will suggest a sensible way to travel.',
   },
   locationsHub: {
     eyebrow: 'Where we go',
-    title: 'Where we go from Srivilliputtur',
-    lede: 'These routes come up often from our Srivilliputtur base. Your destination does not have to be on this list — if the road can take us there, we will talk through timing and fare.',
-    homeBaseCard: 'Our travel desk starts in Srivilliputtur, Tamil Nadu.',
+    title: 'Cab routes from Srivilliputtur across Tamil Nadu',
+    lede: 'These routes come up often from our Srivilliputtur (Srivilliputhur) base — Madurai airport, Chennai one-way, Rameswaram, Kanyakumari, Courtallam, Tirunelveli, Thoothukudi, and more. Your destination does not have to be on this list.',
+    homeBaseCard: 'Our travel desk starts in Srivilliputtur (Srivilliputhur), Tamil Nadu — near Rajapalayam.',
   },
   services: {
     'outstation-cab': {
-      lede: 'From Srivilliputtur to cities, towns, and family homes across India — timed around your day, not a timetable.',
+      lede: 'From Srivilliputtur (Srivilliputhur) and nearby Rajapalayam to cities, towns, and family homes across Tamil Nadu and India — timed around your day, not a timetable.',
       body: [
-        'Outstation journeys are for travellers who need a calm sedan ride beyond the local belt — weddings, family visits, work trips, or a long drive to meet someone elsewhere in India.',
-        'Share pickup point, destination, preferred date or timing, and how many people are travelling. We confirm vehicle fit, timing, and fare by Call or WhatsApp before you leave town.',
+        'Outstation cab booking covers calm sedan rides beyond the local belt — Chennai one-way, Madurai, Coimbatore, Tirunelveli, Rameswaram, Kanyakumari, Courtallam, Thoothukudi, Kodaikanal, and longer drives across India when dates allow.',
+        'Share pickup point (Srivilliputtur, Rajapalayam, or nearby), destination, preferred date or timing, and how many people are travelling. We confirm sedan fit, timing, and fare by Call or WhatsApp before you leave town. We run small-car / sedan travel — not a tempo traveller or tourist-bus fleet.',
       ],
       bullets: [
-        'Sedans, larger family cars & group vehicle options',
-        'Routes across Tamil Nadu and wider India by road',
-        'Direct coordination — no app cart',
+        'Sedan outstation cab — not published per-km rate cards',
+        'Tamil Nadu routes and wider India by road',
+        'Direct Call / WhatsApp coordination — no app cart',
       ],
       faqs: [
         {
@@ -55,13 +55,13 @@ export const pagesEn: PagesCopy = {
       ],
     },
     'airport-taxi': {
-      lede: 'Meet-and-travel for Madurai and nearby airports or stations, with room for luggage and a clear pickup plan.',
+      lede: 'Madurai airport taxi and nearby station meet-and-travel from Srivilliputtur (Srivilliputhur) or Rajapalayam, with room for luggage and a clear pickup plan.',
       body: [
-        'Airport and station trips work best when pickup timing is clear. Tell us the terminal or station, flight or train window if you know it, and where you need to go afterward — often Srivilliputtur, Madurai, or another town on your route.',
+        'Rajapalayam to Madurai airport and Srivilliputtur–Madurai airport runs come up often. Tell us the terminal or station, flight or train window if you know it, and where you need to go afterward.',
         'We plan luggage space and a sensible meet point by Call or WhatsApp. We do not publish fixed wait-time or fare tables online.',
       ],
       bullets: [
-        'Madurai and nearby airport / station links',
+        'Madurai airport & nearby station links',
         'Luggage-aware sedan seating',
         'Pickup plan confirmed before you travel',
       ],
@@ -77,36 +77,36 @@ export const pagesEn: PagesCopy = {
       ],
     },
     'temple-pilgrimage': {
-      lede: 'Andal Temple visits, nearby shrines, and longer pilgrimage routes — paced for elders and families.',
+      lede: 'Andal Temple visits, Madurai to Srivilliputtur temple travel, and south Tamil Nadu pilgrimage routes — paced for elders and families.',
       body: [
-        'Srivilliputtur is home to Andal’s temple town rhythms. We drive local temple visits and longer pilgrimage roads — including places that come up often such as Madurai and Rameswaram — at a pace that suits elders and families.',
-        'Tell us which shrines or towns you hope to reach, overnight plans if any, and who is travelling. We confirm what we can do for your dates by Call or WhatsApp.',
+        'Srivilliputtur is Andal’s temple town. We drive local Andal Temple visits and longer south TN temple tours — Madurai, Rameswaram, Tiruchendur, Kanyakumari, and multi-stop circuits (including Navagraha-style days when you name the shrines) — at a pace that suits elders and families.',
+        'Tell us which shrines or towns you hope to reach, overnight plans if any, and who is travelling. We confirm sedan fit and timing by Call or WhatsApp. We do not publish package prices online.',
       ],
       bullets: [
-        'Local Andal Temple visits and nearby shrines',
-        'Longer pilgrimage routes from Srivilliputtur',
-        'Paced for elders and families',
+        'Andal Temple visits and nearby shrines',
+        'South TN temple tour & multi-stop circuits',
+        'Paced for elders and families — no fake package rates',
       ],
       faqs: [
         {
           q: 'Can you include multiple temples in one day?',
-          a: 'Often yes, when the road and timing allow. Share the places you want to visit and who is travelling — we suggest a sensible order and confirm fare by Call or WhatsApp.',
+          a: 'Often yes, when the road and timing allow — including multi-stop or Navagraha-style circuits when you name the places. Share who is travelling — we suggest a sensible order and confirm fare by Call or WhatsApp.',
         },
         {
-          q: 'Do you go to Rameswaram?',
-          a: 'Rameswaram is a familiar pilgrimage road from Srivilliputtur. Enquire with your preferred dates and we will confirm timing and fare.',
+          q: 'Do you go to Rameswaram or Tiruchendur?',
+          a: 'Rameswaram is a familiar pilgrimage road from Srivilliputtur; Tiruchendur and other south TN shrines come up in enquiries too. Share your preferred dates and we will confirm timing and fare.',
         },
       ],
     },
     'local-taxi': {
-      lede: 'Short hops around Srivilliputtur, Madurai, and nearby towns when you need a reliable car for the day.',
+      lede: 'Local taxi service and day car hire around Srivilliputtur (Srivilliputhur), Madurai, and nearby Rajapalayam when you need a reliable sedan for the day.',
       body: [
-        'Local and day trips cover errands, family visits, temple mornings, and short hops when a trusted sedan is easier than piecing together other options.',
-        'Describe where you need to go, roughly how long you need the car, and how many passengers. We confirm availability and fare by Call or WhatsApp — no invented hourly rate cards on this site.',
+        'Local and day trips cover errands, family visits, temple mornings, and short hops when a trusted sedan with driver is easier than piecing together other options.',
+        'Describe where you need to go, roughly how long you need the car, and how many passengers. We confirm availability and fare by Call or WhatsApp — no invented hourly or per-km rate cards on this site.',
       ],
       bullets: [
-        'Srivilliputtur local hops',
-        'Day use toward Madurai and nearby towns',
+        'Taxi service in Srivilliputtur / Srivilliputhur',
+        'Day use toward Madurai and Rajapalayam',
         'Same Call / WhatsApp booking as longer trips',
       ],
       faqs: [
@@ -123,35 +123,35 @@ export const pagesEn: PagesCopy = {
   },
   locations: {
     srivilliputtur: {
-      lede: 'Our travel desk is based in Srivilliputtur, Tamil Nadu — local roads, temple rhythms, and the starting point for journeys across India.',
+      lede: 'Our travel desk is based in Srivilliputtur (also searched as Srivilliputhur), Tamil Nadu — local roads, Andal Temple rhythms, and the starting point for journeys across India.',
       body: [
-        'Sri Arumuga Travels grew from an everyday need: leaving town with confidence for a wedding, a temple visit with elders, or a long drive to meet family elsewhere in India.',
-        'From Andal’s temple town, roads reach Madurai, the coast, the hills, and the rest of India. We keep it simple — comfortable sedans, larger family cars for groups, a driver who knows the route, and Call or WhatsApp when plans need to change.',
+        'Sri Arumuga Travels Srivilliputtur grew from an everyday need: leaving town with confidence for a temple visit with elders, a Madurai airport link, or a long drive to meet family elsewhere in India.',
+        'From Andal’s temple town near Rajapalayam, roads reach Madurai, the coast, the hills, and the rest of India. We keep it simple — comfortable sedans (Toyota Etios and similar), a driver who knows the route, and Call or WhatsApp when plans need to change.',
       ],
       bullets: [
-        'Home base: Srivilliputtur, Tamil Nadu',
-        'Local taxi, outstation, temple, and day trips',
+        'Home base: Srivilliputtur / Srivilliputhur, Tamil Nadu',
+        'Local taxi, outstation cab, temple, and day trips',
         'Booking: Call · WhatsApp · enquiry form',
       ],
       faqs: [
         {
           q: 'Where is Sri Arumuga Travels based?',
-          a: 'We are based in Srivilliputtur, Tamil Nadu. Journeys usually start here and can go across India by road.',
+          a: 'We are based in Srivilliputtur (Srivilliputhur), Tamil Nadu. Journeys usually start here and can go across India by road.',
         },
         {
           q: 'How do I book from Srivilliputtur?',
-          a: 'Call or WhatsApp either number, or use the enquiry form on the contact page. There is no app cart.',
+          a: 'Call or WhatsApp either number on the contact page, or use the enquiry form. There is no app cart.',
         },
       ],
     },
     madurai: {
-      lede: 'A familiar road from Srivilliputtur — temple city visits and Madurai airport or station links.',
+      lede: 'A familiar road from Srivilliputtur (Srivilliputhur) — temple city visits, Madurai to Srivilliputtur returns, and Madurai airport or station links.',
       body: [
-        'Madurai comes up often for temple visits, family travel, and airport or station connections. We drive the route from our Srivilliputtur base in a sedan suited to families and small groups.',
+        'Madurai comes up often for temple visits, family travel, and Rajapalayam / Srivilliputtur to Madurai airport connections. We drive the route in a sedan suited to families and small groups.',
         'Share whether you need a one-way drop, a round trip, or an airport meet — plus date and passenger count. We confirm timing and fare by Call or WhatsApp. We do not list fixed travel times or fares here.',
       ],
       bullets: [
-        'Temple city & airport links',
+        'Madurai airport & temple city links',
         'Outstation and airport-style pickups',
         'Confirm plan before you travel',
       ],
@@ -167,13 +167,13 @@ export const pagesEn: PagesCopy = {
       ],
     },
     chennai: {
-      lede: 'City and station links from Srivilliputtur to Chennai by sedan.',
+      lede: 'Chennai one-way and return outstation cab from Srivilliputtur (Srivilliputhur) by sedan.',
       body: [
-        'Chennai journeys are typically longer outstation drives for city visits, station connections, or family travel. We plan around your day from Srivilliputtur.',
+        'Chennai journeys are typically longer outstation drives for city visits, station connections, or family travel. One-way drops and return plans are both possible when the car is free.',
         'Enquire with pickup point, Chennai area or landmark if you know it, date, and passengers. Fare and timing are confirmed directly — not published as a price list on this site.',
       ],
       bullets: [
-        'Outstation sedan to Chennai',
+        'Chennai one-way & return sedan',
         'City & station oriented planning',
         'Call or WhatsApp to book',
       ],
@@ -276,7 +276,117 @@ export const pagesEn: PagesCopy = {
         },
       ],
     },
-    thiruvananthapuram: {
+    rajapalayam: {
+      lede: 'Cab booking between Rajapalayam and Srivilliputtur (Srivilliputhur), plus outstation and Madurai airport trips from this belt.',
+      body: [
+        'Rajapalayam sits close to our Srivilliputtur home base. Travellers often ask for short hops between the two towns, family visits, and sedan runs toward Madurai airport or longer Tamil Nadu destinations.',
+        'Share pickup (Rajapalayam or Srivilliputtur), destination, date, and passengers. We confirm timing and fare by Call or WhatsApp — without publishing fixed local fares online.',
+      ],
+      bullets: [
+        'Rajapalayam ↔ Srivilliputtur local & day trips',
+        'Madurai airport links from the belt',
+        'Same travel desk as Srivilliputtur',
+      ],
+      faqs: [
+        {
+          q: 'Can you pick up in Rajapalayam?',
+          a: 'Yes, when the car is free for your dates. Share pickup point, destination, and timing — we confirm by Call or WhatsApp.',
+        },
+        {
+          q: 'Do you only do the short Rajapalayam–Srivilliputtur hop?',
+          a: 'Short hops and longer outstation plans both come up. Tell us what you need and we confirm.',
+        },
+      ],
+    },
+    tirunelveli: {
+      lede: 'Southern Tamil Nadu hub travel from Srivilliputtur (Srivilliputhur) to Tirunelveli by sedan.',
+      body: [
+        'Tirunelveli is a familiar logistics hub for many southern circuits — onward toward Courtallam, Thoothukudi, or Kanyakumari. We drive from our Srivilliputtur base when dates allow.',
+        'Share whether Tirunelveli is a drop, an overnight pause, or part of a longer loop. We confirm timing and fare by Call or WhatsApp without inventing hub package prices.',
+      ],
+      bullets: [
+        'Outstation sedan to Tirunelveli',
+        'Useful pause for southern spokes',
+        'Call or WhatsApp to plan',
+      ],
+      faqs: [
+        {
+          q: 'Can Tirunelveli be a mid-point, not only a drop?',
+          a: 'Yes — many travellers use it as a hub night or turn point. Describe your shape and we confirm what we can do.',
+        },
+        {
+          q: 'Do you continue to Courtallam or Kanyakumari the next day?',
+          a: 'Often discussable when timing and the car allow. Share the full sketch when you enquire.',
+        },
+      ],
+    },
+    kanyakumari: {
+      lede: 'Land’s-end travel from Srivilliputtur (Srivilliputhur) toward Kanyakumari by sedan.',
+      body: [
+        'Kanyakumari trips are long southern outstation days for temple, memorial, and coast visits. Crowd and holiday timing matter — we talk through pacing when you enquire.',
+        'Share travel date, passengers, and whether you need a drop-only or round trip. Fare is confirmed directly; we do not post fixed tip-of-India price cards online.',
+      ],
+      bullets: [
+        'Outstation sedan toward Kanyakumari',
+        'Family-paced planning when requested',
+        'Call or WhatsApp confirmation',
+      ],
+      faqs: [
+        {
+          q: 'Do you drive Srivilliputtur to Kanyakumari?',
+          a: 'Yes, as an outstation journey when we can cover your dates. Enquire with your plan and we confirm.',
+        },
+        {
+          q: 'Should I book early for holidays?',
+          a: 'Peak days are busier. Call or WhatsApp early with preferred dates so we can say clearly yes or no.',
+        },
+      ],
+    },
+    courtallam: {
+      lede: 'Season-aware travel from Srivilliputtur (Srivilliputhur) to Courtallam (Kutralam) and the Tenkasi belt.',
+      body: [
+        'Courtallam waterfall visits depend on recent rain and local access. Travellers from Srivilliputtur often treat this as a purpose day rather than a tiny detour.',
+        'Share your preferred date, passengers, and same-day return versus overnight. We confirm what we can do by Call or WhatsApp — without inventing waterfall package rates.',
+      ],
+      bullets: [
+        'Courtallam / Tenkasi belt day or overnight',
+        'Season and access discussed when you call',
+        'Sedan comfort for families',
+      ],
+      faqs: [
+        {
+          q: 'Can you promise peak water flow?',
+          a: 'No. Nature and local management decide. Check closer to your date — we discuss seasonality when you enquire.',
+        },
+        {
+          q: 'Is same-day return realistic?',
+          a: 'Sometimes, depending on age mix and weather. Tell us your group and we suggest a sensible shape.',
+        },
+      ],
+    },
+    thoothukudi: {
+      lede: 'Coastal-city sedan travel from Srivilliputtur (Srivilliputhur) to Thoothukudi (Tuticorin).',
+      body: [
+        'Thoothukudi draws road visitors for family, work, and as part of wider southern circuits. Arrive with a clear purpose — city tasks differ from resort expectations.',
+        'Provide pickup, drop locality, date, and passengers. We confirm timing and fare by Call or WhatsApp without inventing harbour-tour packages.',
+      ],
+      bullets: [
+        'Outstation cab to Thoothukudi',
+        'Coastal-city / family travel focus',
+        'Direct travel-desk booking',
+      ],
+      faqs: [
+        {
+          q: 'Do you go to Thoothukudi from Srivilliputtur?',
+          a: 'Yes, when dates allow. Share drop locality and timing — we confirm by Call or WhatsApp.',
+        },
+        {
+          q: 'Can this combine with Tirunelveli or Kanyakumari?',
+          a: 'Multi-stop southern shapes are discussable. Outline the places you need and we confirm what fits one sedan day or more.',
+        },
+      ],
+    },
+        thiruvananthapuram: {
       lede: 'Kerala coast travel from Srivilliputtur to Thiruvananthapuram.',
       body: [
         'Thiruvananthapuram journeys cross into Kerala for coast and city visits. We plan the outstation sedan trip from our Tamil Nadu base in Srivilliputtur.',
@@ -301,6 +411,7 @@ export const pagesEn: PagesCopy = {
   },
   contact: {
     eyebrow: 'Enquire',
-    lede: 'Fill in the basics and open WhatsApp with a ready message — or email us. Prefer to talk? Call either number.',
+    title: 'Call taxi in Srivilliputtur',
+    lede: 'Call taxi in Srivilliputtur (Srivilliputhur) on +91 98942 20028 or +91 86676 69560 — or fill in the basics and open WhatsApp / email. Prefer to talk? Call either number.',
   },
 };

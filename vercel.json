@@ -92,6 +92,26 @@
       "destination": "/locations/srivilliputtur/index.html"
     },
     {
+      "source": "/locations/rajapalayam",
+      "destination": "/locations/rajapalayam/index.html"
+    },
+    {
+      "source": "/locations/tirunelveli",
+      "destination": "/locations/tirunelveli/index.html"
+    },
+    {
+      "source": "/locations/kanyakumari",
+      "destination": "/locations/kanyakumari/index.html"
+    },
+    {
+      "source": "/locations/courtallam",
+      "destination": "/locations/courtallam/index.html"
+    },
+    {
+      "source": "/locations/thoothukudi",
+      "destination": "/locations/thoothukudi/index.html"
+    },
+    {
       "source": "/locations/madurai",
       "destination": "/locations/madurai/index.html"
     },

@@ -32,7 +32,8 @@ export const ContactPage: React.FC = () => {
             <span className="eyebrow-dot" aria-hidden />
             {pages.contact.eyebrow}
           </p>
-          <h1 className="display-title max-w-3xl">{t.enquire.title}</h1>
+          <h1 className="display-title max-w-3xl">{pages.contact.title}</h1>
+          <p className="mt-3 text-sm font-semibold text-[var(--color-accent-text)]">{CONTACT_DATA.formattedPhone1} · {CONTACT_DATA.formattedPhone2}</p>
           <p className="lede mt-4 max-w-2xl">{pages.contact.lede}</p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a href={telHref(CONTACT_DATA.phone1)} className="btn btn-primary">

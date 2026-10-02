@@ -49,6 +49,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://sriarumugatravels.vercel.app/locations/rajapalayam</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://sriarumugatravels.vercel.app/locations/madurai</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -73,6 +79,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://sriarumugatravels.vercel.app/locations/tirunelveli</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://sriarumugatravels.vercel.app/locations/rameswaram</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
@@ -80,6 +92,24 @@
   </url>
   <url>
     <loc>https://sriarumugatravels.vercel.app/locations/kodaikanal</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sriarumugatravels.vercel.app/locations/kanyakumari</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sriarumugatravels.vercel.app/locations/courtallam</loc>
+    <lastmod>2026-10-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://sriarumugatravels.vercel.app/locations/thoothukudi</loc>
     <lastmod>2026-10-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>

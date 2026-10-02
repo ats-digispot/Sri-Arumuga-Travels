@@ -4,6 +4,7 @@ import { CONTACT_DATA, whatsappHref } from '../../lib/contact';
 import { BRAND } from '../../lib/content';
 import { SITE_URL, absoluteUrl, BRAND_LOGO_URL, HERO_IMAGE_URL } from '../../lib/site';
 import {
+  AREA_SERVED,
   BUSINESS,
   getRouteByPath,
   type SeoRoute,
@@ -46,11 +47,9 @@ function businessNode(waUrl: string, description: string) {
       opens: item.opens,
       closes: item.closes,
     })),
-    areaServed: [
-      { '@type': 'City', name: 'Srivilliputtur' },
-      { '@type': 'State', name: 'Tamil Nadu' },
-      { '@type': 'Country', name: 'India' },
-    ],
+    areaServed: AREA_SERVED.map((a) => ({ ...a })),
+    keywords:
+      'Srivilliputtur taxi, Srivilliputhur travels, outstation cab, Madurai airport taxi, temple pilgrimage, Rajapalayam cab',
     potentialAction: [
       {
         '@type': 'ContactAction',
@@ -140,6 +139,7 @@ export const RouteJsonLd: React.FC = () => {
         url: pageUrl,
         name: route.title,
         description: route.description,
+        keywords: route.title,
         isPartOf: { '@id': `${SITE_URL}/#website` },
         about: { '@id': `${SITE_URL}/#business` },
         primaryImageOfPage: HERO_IMAGE_URL,
@@ -157,10 +157,10 @@ export const RouteJsonLd: React.FC = () => {
         name: route.entityName,
         description: route.description,
         provider: { '@id': `${SITE_URL}/#business` },
-        areaServed: {
-          '@type': 'City',
-          name: 'Srivilliputtur',
-        },
+        areaServed: [
+          { '@type': 'City', name: 'Srivilliputtur' },
+          { '@type': 'State', name: 'Tamil Nadu' },
+        ],
         url: pageUrl,
       });
     }

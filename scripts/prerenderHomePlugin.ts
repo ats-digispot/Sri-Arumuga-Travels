@@ -119,13 +119,8 @@ export function prerenderHomePlugin(): Plugin {
       {
         const shell = buildCrawlableHomeHtml(siteUrl);
         let html = injectIntoTemplate(cleanTemplate, shell);
-        html = applyMeta(
-          html,
-          siteUrl,
-          'Srivilliputtur Taxi & Outstation Cab | Sri Arumuga Travels',
-          'Srivilliputtur taxi and outstation cab by Sri Arumuga Travels. Sedan trips across India — plan pickup, timing, and fare by call or WhatsApp.',
-          '/'
-        );
+        const home = SEO_ROUTES.find((r) => r.path === '/')!;
+        html = applyMeta(html, siteUrl, home.title, home.description, '/');
         fs.writeFileSync(indexPath, html, 'utf8');
       }
 

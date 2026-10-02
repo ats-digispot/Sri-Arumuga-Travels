@@ -54,16 +54,22 @@ export interface PagesCopy {
   };
   locations: {
     srivilliputtur: LocationPageCopy;
+    rajapalayam: LocationPageCopy;
     madurai: LocationPageCopy;
     chennai: LocationPageCopy;
     bengaluru: LocationPageCopy;
     coimbatore: LocationPageCopy;
+    tirunelveli: LocationPageCopy;
     rameswaram: LocationPageCopy;
     kodaikanal: LocationPageCopy;
+    kanyakumari: LocationPageCopy;
+    courtallam: LocationPageCopy;
+    thoothukudi: LocationPageCopy;
     thiruvananthapuram: LocationPageCopy;
   };
   contact: {
     eyebrow: string;
+    title: string;
     lede: string;
   };
 }
