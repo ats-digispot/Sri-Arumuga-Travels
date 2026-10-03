@@ -136,6 +136,8 @@ export interface Dictionary {
   };
   footer: {
     call: string;
+    address: string;
+    maps: string;
     message: string;
     email: string;
     onThisPage: string;

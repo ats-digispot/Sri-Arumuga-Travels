@@ -1,8 +1,10 @@
 /**
  * Shared LocalBusiness / Organization JSON-LD.
- * Address is city + Tamil Nadu only — no street, PIN, geo, or hours.
+ * LocalBusiness uses the confirmed street, plus code, and PIN.
+ * Organization and the Andal temple stay city-level — the temple is not this desk.
+ * No hours, ratings, or invented coordinates.
  */
-import { CONTACT_DATA } from './contact.ts';
+import { BUSINESS_ADDRESS, CONTACT_DATA } from './contact.ts';
 import { BRAND } from './content.ts';
 import { AREA_SERVED, BUSINESS } from './seoConfig.ts';
 
@@ -12,6 +14,18 @@ export function postalAddress() {
   return {
     '@type': 'PostalAddress' as const,
     addressLocality: BUSINESS.addressLocality,
+    addressRegion: BUSINESS.addressRegion,
+    addressCountry: BUSINESS.addressCountry,
+  };
+}
+
+/** Desk address only. Plus code is stored as given — not converted to lat/long. */
+export function businessPostalAddress() {
+  return {
+    '@type': 'PostalAddress' as const,
+    streetAddress: `${BUSINESS_ADDRESS.plusCode}, ${BUSINESS_ADDRESS.street}`,
+    addressLocality: BUSINESS.addressLocality,
+    postalCode: BUSINESS_ADDRESS.postalCode,
     addressRegion: BUSINESS.addressRegion,
     addressCountry: BUSINESS.addressCountry,
   };
@@ -58,7 +72,7 @@ export function localBusinessNode(siteUrl: string, logoUrl: string, description:
     telephone: [...PHONE_E164],
     email: CONTACT_DATA.email,
     contactPoint: contactPoints(),
-    address: postalAddress(),
+    address: businessPostalAddress(),
     parentOrganization: { '@id': `${siteUrl}/#organization` },
     areaServed: areaServedNodes(),
     keywords:
@@ -68,7 +82,7 @@ export function localBusinessNode(siteUrl: string, logoUrl: string, description:
 
 /**
  * The temple is a place people visit. The taxi company is not this attraction.
- * No ratings, hours, or geo — those are not verified here.
+ * No ratings, hours, or geo. Do not copy the travel-desk street onto the temple.
  */
 export function andalTempleNode(siteUrl: string) {
   return {

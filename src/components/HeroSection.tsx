@@ -56,7 +56,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onEnquiryClick }) => {
             </p>
             <h1
               id="hero-heading"
-              className="font-display font-semibold text-[clamp(2.25rem,5.8vw,3.9rem)] leading-[1.1] tracking-[-0.028em] text-white max-w-[22ch] text-balance rise-in"
+              className="font-display font-semibold text-[clamp(2.25rem,5.8vw,3.9rem)] leading-[1.1] tracking-[-0.028em] text-white max-w-[15ch] text-balance rise-in"
               style={{ animationDelay: '140ms' }}
             >
               {t.hero.titleBefore}{' '}

@@ -1,8 +1,7 @@
 /**
  * Central SEO / business config — verified facts only.
- * Street, PIN, geo, and opening hours are omitted: the owner never verified
- * them in this project. Do not invent street, PIN, hours, geo, prices, or ratings.
- * Visible and schema address is city + Tamil Nadu only.
+ * Street and PIN are the owner's confirmed desk location (see BUSINESS_ADDRESS).
+ * Do not invent hours, geo coordinates, prices, or ratings.
  */
 import { CONTACT_DATA } from './contact.ts';
 import { BRAND } from './content.ts';

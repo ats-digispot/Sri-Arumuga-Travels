@@ -2,7 +2,7 @@
  * Build-time crawlable HTML + JSON-LD shells for inject / static route files.
  * Facts only — English default for non-JS crawlers.
  */
-import { CONTACT_DATA, whatsappHref } from './contact.ts';
+import { BUSINESS_ADDRESS, CONTACT_DATA, businessAddressDisplay, businessMapsUrl, whatsappHref } from './contact.ts';
 import { BRAND } from './content.ts';
 import { en } from '../i18n/en.ts';
 import { pagesEn } from '../i18n/pages/en.ts';
@@ -154,6 +154,7 @@ export function buildCrawlableHomeHtml(siteUrl: string): string {
     `<header>`,
     `<p>${escapeHtml(t.hero.basedIn)} ${escapeHtml(CONTACT_DATA.location)}, ${escapeHtml(CONTACT_DATA.region)}</p>`,
     `<h1>${escapeHtml(t.hero.titleBefore)} <em>${escapeHtml(t.hero.titleAccent)}</em></h1>`,
+    `<p>${escapeHtml(businessAddressDisplay())} · ${escapeHtml(BUSINESS_ADDRESS.plusCode)} · <a href="${escapeHtml(businessMapsUrl())}">Google Maps</a></p>`,
     `<p>${escapeHtml(t.hero.lede)}</p>`,
     phonesBlock(siteUrl),
     `</header>`,
@@ -329,7 +330,7 @@ export function buildCrawlableRouteHtml(siteUrl: string, route: SeoRoute): strin
       blogLinks ? `<section><h2>From the blog</h2><ul>${blogLinks}</ul></section>` : '',
     ].filter(Boolean).join('\n');
   } else if (route.kind === 'contact') {
-    body = `<p>${escapeHtml(pagesEn.contact.lede)}</p><p>${escapeHtml(pagesEn.ui.howToBookBody)}</p>`;
+    body = `<p>${escapeHtml(pagesEn.contact.lede)}</p><p>${escapeHtml(businessAddressDisplay())} · ${escapeHtml(BUSINESS_ADDRESS.plusCode)} · <a href="${escapeHtml(businessMapsUrl())}">Google Maps</a></p><p>${escapeHtml(pagesEn.ui.howToBookBody)}</p>`;
   }
 
   const schema = pageJsonLd(siteUrl, route, faqs);

@@ -13,6 +13,33 @@ export interface ContactInfo {
   country: string;
 }
 
+/** Confirmed desk pin. Street lines are the owner's wording. Plus code only — no invented lat/long. */
+export const BUSINESS_ADDRESS = {
+  plusCode: 'GJ7P+3QH',
+  street: 'Keelapatti Street, Mariamman Kovil Street',
+  locality: 'Srivilliputtur',
+  localityPin: 'Srivilliputhur',
+  region: 'Tamil Nadu',
+  postalCode: '626125',
+  countryCode: 'IN',
+} as const;
+
+/** Human-readable street block. Plus code is separate so it appears once beside this line. */
+export function businessAddressDisplay(): string {
+  const a = BUSINESS_ADDRESS;
+  return `${a.street}, ${a.locality} (${a.localityPin}), ${a.region} ${a.postalCode}`;
+}
+
+/** Maps search string: plus code plus the owner's street lines and pin spelling. */
+export function businessMapsQuery(): string {
+  const a = BUSINESS_ADDRESS;
+  return `${a.plusCode}, ${a.street}, ${a.localityPin}, ${a.region} ${a.postalCode}`;
+}
+
+export function businessMapsUrl(): string {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(businessMapsQuery())}`;
+}
+
 export const CONTACT_DATA: ContactInfo = {
   phone1: '9894220028',
   phone2: '8667669560',

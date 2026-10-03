@@ -250,6 +250,8 @@ export const ta: Dictionary = {
   footer: {
     blog: 'வலைப்பதிவு',
     call: 'அழை',
+    address: 'முகவரி',
+    maps: 'கூகுள் வரைபடம்',
     message: 'செய்தி',
     email: 'மின்னஞ்சல்',
     onThisPage: 'இந்தப் பக்கத்தில்',
