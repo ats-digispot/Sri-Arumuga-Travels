@@ -114,10 +114,13 @@ export const en: Dictionary = {
     lede:
       'Steady coordination, a comfortable sedan, and plain answers when you call — so you can leave with a quiet mind.',
     fleetEyebrow: 'On the road',
-    fleetTitle: 'Etios sedan comfort',
+    fleetTitle: 'Fleet banner and Etios',
     fleetBody:
-      'Dark metallic Etios sedan comfort for highway stretches — luggage, elders, and the quiet between towns. Journeys that start in Srivilliputtur.',
-    fleetAlt: 'Dark grey Toyota Etios sedan on a scenic palm-lined road',
+      'The banner labels Toyota Innova (7 seat, diesel), Toyota Etios GD TN 84 F 6278 (4 seat, 2 luggage, diesel), Hyundai Verna (4 seat, 3 luggage, petrol), and Hyundai Grand i10 (4 seat, 2 luggage, petrol). The photograph is the grey Toyota Etios, plate TN 84 F 6278, a Srivilliputtur taxi. Seat and luggage figures are the labels printed on the banner. Fares are confirmed by call or WhatsApp — this page does not list per-km rates.',
+    fleetBannerAlt:
+      'Sri Arumuga Travels fleet in Srivilliputtur: Toyota Innova, Toyota Etios, Hyundai Verna, Hyundai Grand i10.',
+    etiosAlt:
+      'Grey Toyota Etios TN 84 F 6278, a Srivilliputtur taxi, parked outdoors',
     howTitle: 'How a trip usually begins',
     points: [
       {

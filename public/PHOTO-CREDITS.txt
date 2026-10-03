@@ -20,4 +20,14 @@ Legacy Wikimedia-adapted cutouts (unused in current hero/fleet UI; retained in p
 Commercial Platinum Etios dealer photos were used only as visual reference
 during earlier redesign passes — not shipped as site assets.
 
-Hero plate TN 84 F 6278 appears only on the hero vehicle image (not site-wide).
+Plate TN 84 F 6278 appears on the hero vehicle image, the fleet banner, and the Etios photograph below.
+
+fleet-banner.webp / fleet-banner.png
+  User-supplied fleet banner for the homepage fleet card (logo, temple, sunset,
+  four cars). Optimized WebP for display; PNG is a smaller fallback.
+  Labels on the image: Toyota Innova, Toyota Etios GD TN 84 F 6278,
+  Hyundai Verna, Hyundai Grand i10.
+
+toyota-etios-tn84f6278.webp / toyota-etios-tn84f6278.png
+  User-supplied outdoor photograph of the grey Toyota Etios, plate TN 84 F 6278.
+  Shown in the fleet card next to the banner. Not the homepage LCP hero.

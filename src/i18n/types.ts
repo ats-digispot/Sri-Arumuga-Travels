@@ -72,7 +72,8 @@ export interface Dictionary {
     fleetEyebrow: string;
     fleetTitle: string;
     fleetBody: string;
-    fleetAlt: string;
+    fleetBannerAlt: string;
+    etiosAlt: string;
     howTitle: string;
     points: Array<{ title: string; description: string }>;
     steps: Array<{ step: string; title: string; description: string }>;

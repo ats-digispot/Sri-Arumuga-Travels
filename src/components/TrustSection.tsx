@@ -24,16 +24,28 @@ export const TrustSection: React.FC = () => {
 
         <Reveal delayMs={70} className="mt-10">
           <figure className="fleet-card card overflow-hidden">
-            <div className="grid md:grid-cols-12 gap-0 items-stretch">
-              <div className="md:col-span-7 relative min-h-[14rem] sm:min-h-[18rem] bg-[var(--color-ink)]">
+            <picture>
+              <source srcSet="/fleet-banner.webp" type="image/webp" />
+              <img
+                src="/fleet-banner.png"
+                alt={t.trust.fleetBannerAlt}
+                width={1400}
+                height={788}
+                className="block w-full h-auto"
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
+            <div className="grid md:grid-cols-12 gap-0 items-stretch border-t border-[var(--color-line)]">
+              <div className="md:col-span-7 relative bg-[var(--color-ink)]">
                 <picture>
-                  <source srcSet="/fleet-scene.webp" type="image/webp" />
+                  <source srcSet="/toyota-etios-tn84f6278.webp" type="image/webp" />
                   <img
-                    src="/fleet-scene.png"
-                    alt={t.trust.fleetAlt}
-                    width={1672}
-                    height={941}
-                    className="relative z-[1] w-full h-full object-cover object-center min-h-[14rem]"
+                    src="/toyota-etios-tn84f6278.png"
+                    alt={t.trust.etiosAlt}
+                    width={1200}
+                    height={900}
+                    className="relative z-[1] w-full h-full object-cover object-center"
                     loading="lazy"
                     decoding="async"
                   />
