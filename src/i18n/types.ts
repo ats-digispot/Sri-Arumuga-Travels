@@ -61,6 +61,14 @@ export interface Dictionary {
     eyebrow: string;
     title: string;
     lede: string;
+    tnHighlightEyebrow: string;
+    tnHighlightTitle: string;
+    tnHighlightBody: string;
+    tnHighlightCta: string;
+    quickDropdownLabel: string;
+    quickDropdownPlaceholder: string;
+    showAll: string;
+    showLess: string;
     enquireCustom: string;
     enquireTo: string;
     items: Array<{ id: string; name: string; note: string }>;

@@ -90,6 +90,15 @@ export const en: Dictionary = {
     title: 'Familiar roads — and any place you need to reach.',
     lede:
       'These come up often. Your destination does not have to be on this list. If the road can take us there from Srivilliputtur, we will talk through timing and fare.',
+    tnHighlightEyebrow: 'All Around Tamil Nadu & Beyond',
+    tnHighlightTitle: 'Any Town, Temple, or Village Across Tamil Nadu',
+    tnHighlightBody:
+      'Journeys start right from your doorstep in Srivilliputtur. Whether it is Madurai, Chennai, Coimbatore, coastal towns, village family visits, or nearby districts — name the place and we will arrange the right cab with transparent pricing.',
+    tnHighlightCta: 'Plan Any Route in Tamil Nadu',
+    quickDropdownLabel: 'Quick Route Selector',
+    quickDropdownPlaceholder: 'Select a destination (Madurai, Chennai, Kodaikanal...)',
+    showAll: 'View all destinations (12+ locations)',
+    showLess: 'Show fewer destinations',
     enquireCustom: 'Enquire about a custom destination',
     enquireTo: 'Enquire about travel to',
     items: [
