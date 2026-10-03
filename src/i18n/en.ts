@@ -42,7 +42,7 @@ export const en: Dictionary = {
   },
   hero: {
     basedIn: 'Based in',
-    titleBefore: 'Taxi and travels in Srivilliputtur (Srivilliputhur) to',
+    titleBefore: 'Taxi and travels in Srivilliputtur to',
     titleAccent: 'anywhere in India',
     lede:
       'Sri Arumuga Travels — taxi and sedan journeys from Srivilliputtur (Srivilliputhur) for families, pilgrims, and everyday travellers. Outstation cab, Madurai airport links, and temple trips — planned by phone or WhatsApp.',
