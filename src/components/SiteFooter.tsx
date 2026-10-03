@@ -56,13 +56,14 @@ export const SiteFooter: React.FC = () => {
             </p>
             <a
               href={telHref(CONTACT_DATA.phone1)}
-              className="block tabular-nums text-[var(--color-ink-soft)] hover:text-[var(--color-accent)]"
+              itemProp="telephone"
+              className="block tabular-nums text-[var(--color-ink-soft)] hover:text-[var(--color-accent)] tel"
             >
               {CONTACT_DATA.formattedPhone1}
             </a>
             <a
               href={telHref(CONTACT_DATA.phone2)}
-              className="block tabular-nums text-[var(--color-ink-soft)] hover:text-[var(--color-accent)] mt-1"
+              className="block tabular-nums text-[var(--color-ink-soft)] hover:text-[var(--color-accent)] mt-1 tel"
             >
               {CONTACT_DATA.formattedPhone2}
             </a>

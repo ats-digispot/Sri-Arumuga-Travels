@@ -243,6 +243,7 @@ export const Navigation: React.FC<NavigationProps> = ({
             </button>
             <a
               href={telHref(CONTACT_DATA.phone1)}
+              itemProp="telephone"
               className={`inline-flex items-center gap-1.5 py-1.5 px-2.5 sm:px-3 rounded-full transition-all text-xs font-semibold ${
                 solid
                   ? 'border border-[var(--color-line)] bg-[var(--color-surface)] text-[var(--color-ink)] hover:border-[var(--color-accent)] shadow-sm'

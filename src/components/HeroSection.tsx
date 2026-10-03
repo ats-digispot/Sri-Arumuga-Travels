@@ -77,7 +77,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onEnquiryClick }) => {
             >
               <a
                 href={telHref(CONTACT_DATA.phone1)}
-                className="btn btn-primary min-h-12 !px-5 inline-flex items-center justify-center gap-2.5 shadow-lg shadow-[var(--color-accent)]/25 group"
+                itemProp="telephone"
+                className="btn btn-primary min-h-12 !px-5 inline-flex items-center justify-center gap-2.5 shadow-lg shadow-[var(--color-accent)]/25 group tel"
                 aria-label={`Call ${CONTACT_DATA.formattedPhone1}`}
               >
                 <span className="w-7 h-7 rounded-full bg-white/20 flex items-center justify-center text-white group-hover:scale-110 transition-transform">

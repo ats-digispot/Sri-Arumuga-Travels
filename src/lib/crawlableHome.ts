@@ -33,8 +33,8 @@ function phonesBlock(siteUrl: string): string {
   const tel1 = `tel:+91${CONTACT_DATA.phone1}`;
   const tel2 = `tel:+91${CONTACT_DATA.phone2}`;
   const mail = `mailto:${CONTACT_DATA.email}`;
-  return `<p><a href="${escapeHtml(tel1)}">Call ${escapeHtml(CONTACT_DATA.formattedPhone1)}</a>
- · <a href="${escapeHtml(tel2)}">Call ${escapeHtml(CONTACT_DATA.formattedPhone2)}</a>
+  return `<p><a href="${escapeHtml(tel1)}" itemprop="telephone" class="tel">Call ${escapeHtml(CONTACT_DATA.formattedPhone1)}</a>
+ · <a href="${escapeHtml(tel2)}" class="tel">Call ${escapeHtml(CONTACT_DATA.formattedPhone2)}</a>
  · <a href="${escapeHtml(wa)}">WhatsApp</a>
  · <a href="${escapeHtml(mail)}">${escapeHtml(CONTACT_DATA.email)}</a>
  · <a href="${escapeHtml(siteUrl + '/contact')}">Enquire</a></p>`;
@@ -48,7 +48,7 @@ export function buildHomeJsonLd(siteUrl: string): Record<string, unknown> {
   const waUrl = whatsappHref(t.whatsapp.greeting);
 
   const description =
-    'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
+    'Taxi & travels in Srivilliputtur, Tamil Nadu. Book sedan outstation cabs, Madurai airport drops, and temple tours. Call or WhatsApp Sri Arumuga Travels today.';
   const business = {
     ...localBusinessNode(siteUrl, logoUrl, description),
     alternateName: t.brand.name,

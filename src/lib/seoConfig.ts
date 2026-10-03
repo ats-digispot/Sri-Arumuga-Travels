@@ -72,10 +72,10 @@ export const SEO_ROUTES: SeoRoute[] = [
     id: 'home',
     path: '/',
     kind: 'home',
-    title: 'Taxi & Travels in Srivilliputtur (Srivilliputhur) | Sri Arumuga Travels',
+    title: 'Taxi & Travels in Srivilliputtur | Sri Arumuga Travels',
     description:
-      'Sri Arumuga Travels — taxi and travels in Srivilliputtur (Srivilliputhur), Tamil Nadu. Sedan outstation cab, Madurai airport links, temple trips, and Rajapalayam–Srivilliputtur cab booking by call or WhatsApp.',
-    heading: 'Taxi and travels in Srivilliputtur (Srivilliputhur)',
+      'Taxi & travels in Srivilliputtur, Tamil Nadu. Book sedan outstation cabs, Madurai airport drops, and temple tours. Call or WhatsApp Sri Arumuga Travels today.',
+    heading: 'Taxi & travels from Srivilliputtur to anywhere in India',
   },
   {
     id: 'services',
