@@ -9,7 +9,7 @@ export const SiteFooter: React.FC = () => {
   const { t, locale } = useI18n();
   const pages = getPagesCopy(locale);
   const services = getServiceRoutes();
-  const locations = getLocationRoutes().slice(0, 6);
+  const locations = getLocationRoutes();
 
   return (
     <footer className="site-footer relative z-10 border-t border-[var(--color-line)] bg-[var(--color-bg-deep)] px-5 sm:px-8 lg:px-12 py-12 md:py-14">

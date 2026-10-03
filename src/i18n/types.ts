@@ -71,6 +71,7 @@ export interface Dictionary {
     showLess: string;
     enquireCustom: string;
     enquireTo: string;
+    routeLinksLabel: string;
     items: Array<{ id: string; name: string; note: string }>;
   };
   trust: {

@@ -131,6 +131,17 @@ export function buildBlogPostShell(siteUrl: string, post: BlogPost): string {
     ? `<p><a href="${escapeHtml(siteUrl + '/blog/' + counterpartSlug)}">${post.lang === 'ta' ? 'Read in English' : 'தமிழில் படிக்க (Read in Tamil)'}</a></p>`
     : '';
 
+  const relatedItems = (post.relatedPaths ?? [])
+    .map((href) => {
+      const route = SEO_ROUTES.find((r) => r.path === href);
+      const label = route?.heading ?? href;
+      return `<li><a href="${escapeHtml(href)}">${escapeHtml(label)}</a></li>`;
+    })
+    .join('');
+  const relatedNav = relatedItems
+    ? `<nav><h2>${post.lang === 'ta' ? 'இந்தப் பயணத்தைத் திட்டமிட' : 'Plan this journey'}</h2><ul>${relatedItems}</ul></nav>`
+    : '';
+
   return [
     `<script type="application/ld+json">${JSON.stringify(schema)}</script>`,
     `<article class="seo-prerender" data-seo-prerender="blog-post">`,
@@ -139,6 +150,7 @@ export function buildBlogPostShell(siteUrl: string, post: BlogPost): string {
     `<p class="lede">${escapeHtml(post.description)}</p>`,
     counterpartLink,
     fullBody,
+    relatedNav,
     counterpartLink,
     `<p><a href="tel:+91${CONTACT_DATA.phone1}">Call ${escapeHtml(CONTACT_DATA.formattedPhone1)}</a> · <a href="${escapeHtml(whatsappHref())}">WhatsApp</a> · <a href="${escapeHtml(siteUrl + '/contact')}">Enquire</a></p>`,
     `<p><a href="${escapeHtml(pageUrl)}">${escapeHtml(pageUrl)}</a></p>`,
@@ -174,7 +186,7 @@ export function buildBlogTaxonomyShell(
   ].join('\n');
 }
 
-export function buildSitemapXml(siteUrl: string, lastmod = '2026-10-02'): string {
+export function buildSitemapXml(siteUrl: string, lastmod = '2026-10-04'): string {
   const urls: Array<{ loc: string; priority: string; changefreq: string; lastmod: string }> = [];
 
   for (const r of SEO_ROUTES) {

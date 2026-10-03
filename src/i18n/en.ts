@@ -93,7 +93,7 @@ export const en: Dictionary = {
     tnHighlightEyebrow: 'All Around Tamil Nadu & Beyond',
     tnHighlightTitle: 'Any Town, Temple, or Village Across Tamil Nadu',
     tnHighlightBody:
-      'Journeys start right from your doorstep in Srivilliputtur. Whether it is Madurai, Chennai, Coimbatore, coastal towns, village family visits, or nearby districts — name the place and we will arrange the right cab with transparent pricing.',
+      'Journeys start from our desk in Srivilliputtur (Srivilliputhur). Madurai, Chennai, Coimbatore, a coastal town, or a village visit — name the place. We match a car and confirm the fare by call or WhatsApp before you travel.',
     tnHighlightCta: 'Plan Any Route in Tamil Nadu',
     quickDropdownLabel: 'Quick Route Selector',
     quickDropdownPlaceholder: 'Select a destination (Madurai, Chennai, Kodaikanal...)',
@@ -101,6 +101,7 @@ export const en: Dictionary = {
     showLess: 'Show fewer destinations',
     enquireCustom: 'Enquire about a custom destination',
     enquireTo: 'Enquire about travel to',
+    routeLinksLabel: 'Routes we already describe',
     items: [
       { id: 'madurai', name: 'Madurai', note: 'Temple city & airport' },
       { id: 'chennai', name: 'Chennai', note: 'One-way & station links' },
@@ -130,7 +131,7 @@ export const en: Dictionary = {
       'Grey Toyota Etios TN 84 F 6278, a Srivilliputtur taxi, parked outdoors',
     etiosBadges: ['AC Comfort', 'Up to 4 Passengers', 'Boot Luggage Space', 'Careful Driving'],
     fleetBannerEyebrow: 'Fleet Options & Variety',
-    fleetBannerTitle: 'Options for Every Journey — Sedans, Larger Family Cars & More',
+    fleetBannerTitle: 'Cars on the banner — Innova, Etios, Verna, Grand i10',
     fleetBannerBody:
       'The fleet lineup includes Toyota Innova (7 seat, diesel), Toyota Etios GD (4 seat, diesel), Hyundai Verna (4 seat, petrol), and Hyundai Grand i10 (4 seat, petrol). Seat and luggage capacities are matched to your family size and luggage requirements. Fares are confirmed upfront by call or WhatsApp.',
     fleetBannerAlt:
@@ -188,7 +189,7 @@ export const en: Dictionary = {
     howToBook: 'How to book',
     howToBookValue: 'Call · WhatsApp · Enquiry',
     vehicle: 'Vehicles',
-    vehicleValue: 'Sedans, larger family cars & group options',
+    vehicleValue: 'Etios, Innova, Verna, Grand i10',
     coverage: 'Coverage',
     coverageValue: 'Across India by road',
     directPhone: 'Direct Phone',
@@ -255,7 +256,7 @@ export const en: Dictionary = {
       {
         question: 'What kind of vehicles do you offer?',
         answer:
-          'We focus on small-car / sedan travel from Srivilliputtur — comfortable sedans such as Toyota Etios for couples and small families, with larger family cars when extra space is needed. We are not a tempo traveller, Innova fleet, or tourist-bus operator, and we do not publish per-km rate cards online.',
+          'The cars shown are a Toyota Etios GD, plate TN 84 F 6278, plus the banner labels Toyota Innova (7 seat, diesel), Hyundai Verna (4 seat, petrol), and Hyundai Grand i10 (4 seat, petrol). Say how many people are travelling and we confirm which car fits. We do not run a tempo or a bus, and we do not publish fares online.',
       },
       {
         question: 'How do I call a taxi in Srivilliputtur?',

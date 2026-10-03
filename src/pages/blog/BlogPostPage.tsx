@@ -20,6 +20,7 @@ import { getFullPost } from '../../content/blog/getFullPost';
 import { useI18n } from '../../i18n/I18nProvider';
 import { getPagesCopy } from '../../i18n/pages';
 import { absoluteUrl } from '../../lib/site';
+import { getRouteByPath } from '../../lib/seoConfig';
 
 function formatDate(iso: string, lang: 'en' | 'ta') {
   try {
@@ -150,6 +151,26 @@ export const BlogPostPage: React.FC = () => {
           />
           <BlogContent blocks={post.body} />
         </div>
+
+        {post.relatedPaths && post.relatedPaths.length > 0 && (
+          <nav className="mt-10 border-t border-[var(--color-line)] pt-8" aria-label={locale === 'ta' ? 'சேவைகள்' : 'Services and routes'}>
+            <h2 className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--color-faint)] mb-3">
+              {locale === 'ta' ? 'இந்தப் பயணத்தைத் திட்டமிட' : 'Plan this journey'}
+            </h2>
+            <ul className="flex flex-wrap gap-3">
+              {post.relatedPaths.map((path) => {
+                const route = getRouteByPath(path);
+                return (
+                  <li key={path}>
+                    <Link to={path} className="text-[var(--color-accent-text)] font-medium hover:underline">
+                      {route?.heading ?? path}
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </nav>
+        )}
 
         {tags.length > 0 && (
           <div className="mt-10 flex flex-wrap gap-2">

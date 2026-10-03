@@ -35,8 +35,7 @@ export const BUSINESS = {
 
 /** Cities / regions already served on this site (JSON-LD areaServed). */
 export const AREA_SERVED = [
-  { '@type': 'City', name: 'Srivilliputtur' },
-  { '@type': 'City', name: 'Srivilliputhur' },
+  { '@type': 'City', name: 'Srivilliputtur', alternateName: 'Srivilliputhur' },
   { '@type': 'City', name: 'Rajapalayam' },
   { '@type': 'City', name: 'Madurai' },
   { '@type': 'City', name: 'Chennai' },
@@ -327,10 +326,10 @@ export const SEO_ROUTES: SeoRoute[] = [
     id: 'contact',
     path: '/contact',
     kind: 'contact',
-    title: 'Call Taxi Srivilliputtur Contact Number | Sri Arumuga Travels',
+    title: 'Contact Sri Arumuga Travels in Srivilliputtur | Call or WhatsApp',
     description:
-      'Call taxi Srivilliputtur (Srivilliputhur) contact numbers: +91 98942 20028 and +91 86676 69560. WhatsApp or enquire online with Sri Arumuga Travels.',
-    heading: 'Call taxi — Srivilliputtur contact',
+      'Sri Arumuga Travels desk in Srivilliputtur (Srivilliputhur): +91 98942 20028 and +91 86676 69560. Call, WhatsApp, or send the enquiry form.',
+    heading: 'Talk to the Srivilliputtur desk',
     parentPath: '/',
     parentLabel: 'Home',
   },

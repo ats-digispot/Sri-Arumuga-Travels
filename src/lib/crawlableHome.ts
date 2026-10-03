@@ -6,7 +6,7 @@ import { BUSINESS_ADDRESS, CONTACT_DATA, businessAddressDisplay, businessMapsUrl
 import { BRAND } from './content.ts';
 import { en } from '../i18n/en.ts';
 import { pagesEn } from '../i18n/pages/en.ts';
-import { BUSINESS, SEO_ROUTES, type SeoRoute } from './seoConfig.ts';
+import { BUSINESS, DESTINATION_PATH_BY_ID, SEO_ROUTES, SERVICE_PATH_BY_ID, type SeoRoute } from './seoConfig.ts';
 import {
   andalTempleNode,
   localBusinessNode,
@@ -52,7 +52,6 @@ export function buildHomeJsonLd(siteUrl: string): Record<string, unknown> {
     'Taxi & travels in Srivilliputtur, Tamil Nadu. Book sedan outstation cabs, Madurai airport drops, and temple tours. Call or WhatsApp Sri Arumuga Travels today.';
   const business = {
     ...localBusinessNode(siteUrl, logoUrl, description, imageUrl),
-    alternateName: t.brand.name,
     potentialAction: [
       {
         '@type': 'ContactAction',
@@ -130,14 +129,23 @@ export function buildCrawlableHomeHtml(siteUrl: string): string {
   const pageUrl = `${siteUrl}/`;
 
   const services = t.services.items
-    .map(
-      (item) =>
-        `<li><strong>${escapeHtml(item.title)}</strong> — ${escapeHtml(item.description)}</li>`
-    )
+    .map((item) => {
+      const href = SERVICE_PATH_BY_ID[item.id];
+      const title = href
+        ? `<a href="${escapeHtml(siteUrl + href)}">${escapeHtml(item.title)}</a>`
+        : escapeHtml(item.title);
+      return `<li><strong>${title}</strong> — ${escapeHtml(item.description)}</li>`;
+    })
     .join('');
 
   const destinations = t.destinations.items
-    .map((item) => `<li><strong>${escapeHtml(item.name)}</strong> — ${escapeHtml(item.note)}</li>`)
+    .map((item) => {
+      const href = DESTINATION_PATH_BY_ID[item.id];
+      const name = href
+        ? `<a href="${escapeHtml(siteUrl + href)}">${escapeHtml(item.name)}</a>`
+        : escapeHtml(item.name);
+      return `<li><strong>${name}</strong> — ${escapeHtml(item.note)}</li>`;
+    })
     .join('');
 
   const faqs = t.faq.items

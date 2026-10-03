@@ -1,7 +1,7 @@
 /**
  * Shared LocalBusiness / Organization JSON-LD.
  * LocalBusiness uses the confirmed street, plus code, and PIN.
- * Organization and the Andal temple stay city-level — the temple is not this desk.
+ * Organization uses the same street NAP as the travel desk. The Andal temple stays city-level — it is not this desk.
  * No hours, ratings, or invented coordinates.
  */
 import { BUSINESS_ADDRESS, CONTACT_DATA } from './contact.ts';
@@ -56,7 +56,7 @@ export function organizationNode(siteUrl: string, logoUrl: string) {
     logo: logoUrl,
     sameAs: [BUSINESS_ADDRESS.mapsUrl],
     contactPoint: contactPoints(),
-    address: postalAddress(),
+    address: businessPostalAddress(),
     areaServed: areaServedNodes(),
   };
 }

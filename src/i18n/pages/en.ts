@@ -36,7 +36,7 @@ export const pagesEn: PagesCopy = {
       lede: 'From Srivilliputtur (Srivilliputhur) and nearby Rajapalayam to cities, towns, and family homes across Tamil Nadu and India — timed around your day, not a timetable.',
       body: [
         'Outstation cab booking covers calm sedan rides beyond the local belt — Chennai one-way, Madurai, Coimbatore, Tirunelveli, Rameswaram, Kanyakumari, Courtallam, Thoothukudi, Kodaikanal, and longer drives across India when dates allow.',
-        'Share pickup point (Srivilliputtur, Rajapalayam, or nearby), destination, preferred date or timing, and how many people are travelling. We confirm sedan fit, timing, and fare by Call or WhatsApp before you leave town. We run small-car / sedan travel — not a tempo traveller or tourist-bus fleet.',
+        'Share pickup (Srivilliputtur, Rajapalayam, or nearby), destination, date, and how many people are travelling. The cars we show are a Toyota Etios GD (TN 84 F 6278) and, on the banner, Toyota Innova, Hyundai Verna, and Hyundai Grand i10. We confirm which one fits, plus timing and fare, by call or WhatsApp. We do not run a tempo or a bus.',
       ],
       bullets: [
         'Sedan outstation cab — not published per-km rate cards',
@@ -116,22 +116,22 @@ export const pagesEn: PagesCopy = {
         },
         {
           q: 'What vehicles do you offer?',
-          a: 'We offer a wide range of vehicles suitable for different travel needs — from comfortable sedans for couples and small groups to larger family cars and spacious group options with ample luggage space.',
+          a: 'Shown on the site: Toyota Etios GD (TN 84 F 6278, 4 seat) and banner labels for Toyota Innova (7 seat, diesel), Hyundai Verna (4 seat, petrol), and Hyundai Grand i10 (4 seat, petrol). Tell us the group size and we confirm the car. No tempo or bus, and no fare chart online.',
         },
       ],
     },
   },
   locations: {
     srivilliputtur: {
-      lede: 'Our travel desk is based in Srivilliputtur (also searched as Srivilliputhur), Tamil Nadu — local roads, Andal Temple rhythms, and the starting point for journeys across India.',
+      lede: 'This is the home desk — Srivilliputtur, also written Srivilliputhur. We drive from here across Tamil Nadu and India. We do not keep an office in every city on this site.',
       body: [
-        'Sri Arumuga Travels Srivilliputtur grew from an everyday need: leaving town with confidence for a temple visit with elders, a Madurai airport link, or a long drive to meet family elsewhere in India.',
-        'From Andal’s temple town near Rajapalayam, roads reach Madurai, the coast, the hills, and the rest of India. We keep it simple — comfortable sedans (Toyota Etios and similar), a driver who knows the route, and Call or WhatsApp when plans need to change.',
+        'Find us at GJ7P+3QH, Keelapatti Street, Mariamman Kovil Street, Srivilliputtur, Tamil Nadu 626125. Call +91 98942 20028 or +91 86676 69560, WhatsApp the first number, or use the enquiry form. Email sriviarumugatravels@gmail.com.',
+        'People book local hops, Andal Temple visits, Madurai airport runs, and longer roads. The cars shown are a Toyota Etios GD (TN 84 F 6278) and banner labels for Toyota Innova, Hyundai Verna, and Hyundai Grand i10, with seat counts printed on the banner. Say who is travelling and we confirm the car and the fare. Nothing is priced on this page.',
       ],
       bullets: [
-        'Home base: Srivilliputtur / Srivilliputhur, Tamil Nadu',
-        'Local taxi, outstation cab, temple, and day trips',
-        'Booking: Call · WhatsApp · enquiry form',
+        'One desk: Srivilliputtur / Srivilliputhur, Tamil Nadu 626125',
+        'Local taxi, outstation, temple, and day trips from here',
+        'Book by call, WhatsApp, or the enquiry form',
       ],
       faqs: [
         {
@@ -145,10 +145,10 @@ export const pagesEn: PagesCopy = {
       ],
     },
     madurai: {
-      lede: 'A familiar road from Srivilliputtur (Srivilliputhur) — temple city visits, Madurai to Srivilliputtur returns, and Madurai airport or station links.',
+      lede: 'A cab from the Srivilliputtur desk to Madurai city or Madurai airport. This is not a Madurai office.',
       body: [
-        'Madurai comes up often for temple visits, family travel, and Rajapalayam / Srivilliputtur to Madurai airport connections. We drive the route in a sedan suited to families and small groups.',
-        'Share whether you need a one-way drop, a round trip, or an airport meet — plus date and passenger count. We confirm timing and fare by Call or WhatsApp. We do not list fixed travel times or fares here.',
+        'Most trips start in Srivilliputtur or nearby Rajapalayam: a temple visit in Madurai, a family drop, or a meet at the airport. One-way and return are both possible when the car is free.',
+        'Tell us the date, how many people, and — for a flight — the terminal window you already know. We confirm timing and fare by call or WhatsApp. We do not publish kilometres, tolls, or a fixed travel time.',
       ],
       bullets: [
         'Madurai airport & temple city links',
@@ -167,10 +167,10 @@ export const pagesEn: PagesCopy = {
       ],
     },
     chennai: {
-      lede: 'Chennai one-way and return outstation cab from Srivilliputtur (Srivilliputhur) by sedan.',
+      lede: 'A long outstation drive from Srivilliputtur to Chennai, arranged with the home desk — not a Chennai branch.',
       body: [
-        'Chennai journeys are typically longer outstation drives for city visits, station connections, or family travel. One-way drops and return plans are both possible when the car is free.',
-        'Enquire with pickup point, Chennai area or landmark if you know it, date, and passengers. Fare and timing are confirmed directly — not published as a price list on this site.',
+        'People ask for a one-way drop or a return: a city visit, a station, or family. The car leaves from Srivilliputtur (or a pickup you name nearby) and we agree the Chennai drop before you travel.',
+        'Share the area or landmark, the date, and how many passengers. We confirm timing and fare by call or WhatsApp. There is no kilometre chart or toll table on this site.',
       ],
       bullets: [
         'Chennai one-way & return sedan',
@@ -233,10 +233,10 @@ export const pagesEn: PagesCopy = {
       ],
     },
     rameswaram: {
-      lede: 'Pilgrimage road from Srivilliputtur to Rameswaram — paced for families.',
+      lede: 'A pilgrimage drive from the Srivilliputtur desk to Rameswaram, paced for the family you are actually travelling with.',
       body: [
-        'Rameswaram is a pilgrimage road many families request from Srivilliputtur. We drive sedan trips paced for elders when that is part of your plan.',
-        'Share temple timing preferences if you have them, overnight needs if any, and who is travelling. We confirm the road plan and fare by Call or WhatsApp.',
+        'Families book this road for the temple, sometimes with other south Tamil Nadu stops on the way. We start in Srivilliputtur. We do not keep a Rameswaram counter.',
+        'Say who is travelling, whether elders need a slower pace, and if you need an overnight. We confirm the car — Etios, Innova, Verna, or Grand i10 as shown — and the fare by call or WhatsApp. No package price is listed here.',
       ],
       bullets: [
         'Pilgrimage-oriented outstation trip',
@@ -411,7 +411,7 @@ export const pagesEn: PagesCopy = {
   },
   contact: {
     eyebrow: 'Enquire',
-    title: 'Call taxi in Srivilliputtur',
-    lede: 'Call taxi in Srivilliputtur (Srivilliputhur) on +91 98942 20028 or +91 86676 69560 — or fill in the basics and open WhatsApp / email. Prefer to talk? Call either number.',
+    title: 'Talk to the Srivilliputtur desk',
+    lede: 'Sri Arumuga Travels is based in Srivilliputtur (Srivilliputhur), not in every city we drive to. Call +91 98942 20028 or +91 86676 69560, WhatsApp the first number, or send the form below. Email sriviarumugatravels@gmail.com.',
   },
 };

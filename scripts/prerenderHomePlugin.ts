@@ -67,10 +67,14 @@ function applyMeta(
   return out;
 }
 
+function stripStaticSeoShell(html: string): string {
+  return html.replace(/<div id=["']static-seo-shell["']>[\s\S]*?<\/div>\s*/i, '');
+}
+
 function writeShell(outDir: string, routePath: string, html: string) {
   const dir = path.resolve(outDir, routePath.replace(/^\//, ''));
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
+  fs.writeFileSync(path.join(dir, 'index.html'), stripStaticSeoShell(html), 'utf8');
 }
 
 

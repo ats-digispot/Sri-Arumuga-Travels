@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
-import { Phone, Menu, X, ChevronDown } from 'lucide-react';
-import { CONTACT_DATA, telHref } from '../lib/contact';
+import { Phone, Menu, X, ChevronDown, MessageCircle } from 'lucide-react';
+import { CONTACT_DATA, telHref, whatsappHref } from '../lib/contact';
 import { useI18n } from '../i18n/I18nProvider';
 
 interface NavigationProps {
@@ -256,14 +256,32 @@ export const Navigation: React.FC<NavigationProps> = ({
                 className={`w-3.5 h-3.5 ${solid ? 'text-[var(--color-accent)]' : 'text-[var(--color-accent-soft)]'}`}
                 aria-hidden
               />
+              <span className="sm:hidden font-bold tracking-wide">{t.nav.call}</span>
               <span className="hidden sm:inline font-bold tracking-wide font-mono">
                 {CONTACT_DATA.formattedPhone1}
               </span>
             </a>
+            <a
+              href={whatsappHref(t.whatsapp.greeting)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`inline-flex items-center gap-1.5 py-1.5 px-2.5 sm:px-3 rounded-full transition-all text-xs font-semibold min-h-10 ${
+                solid
+                  ? 'border border-[var(--color-line)] bg-[var(--color-surface)] text-[var(--color-ink)] hover:border-[var(--color-whatsapp)] shadow-sm'
+                  : 'border border-white/25 bg-white/12 text-white backdrop-blur-md hover:bg-white/20'
+              }`}
+              aria-label={`${t.nav.whatsapp} ${CONTACT_DATA.formattedPhone1}`}
+            >
+              <MessageCircle
+                className={`w-3.5 h-3.5 ${solid ? 'text-[var(--color-whatsapp)]' : 'text-emerald-300'}`}
+                aria-hidden
+              />
+              <span className="font-bold tracking-wide">{t.nav.whatsapp}</span>
+            </a>
             <button
               type="button"
               onClick={onEnquiryClick}
-              className="btn btn-primary !py-1.5 !px-3 sm:px-3.5 inline-flex text-sm"
+              className="btn btn-primary !py-1.5 !px-3 sm:px-3.5 hidden lg:inline-flex text-sm"
             >
               {t.nav.enquireBtn}
             </button>
@@ -341,6 +359,22 @@ export const Navigation: React.FC<NavigationProps> = ({
             >
               <Phone className="w-4 h-4 text-[var(--color-accent)]" aria-hidden />
               {CONTACT_DATA.formattedPhone1}
+            </a>
+            <a
+              href={telHref(CONTACT_DATA.phone2)}
+              className="inline-flex items-center justify-center gap-2 text-sm font-medium text-[var(--color-ink-soft)] hover:text-[var(--color-accent-text)] py-2"
+            >
+              <Phone className="w-4 h-4 text-[var(--color-accent)]" aria-hidden />
+              {CONTACT_DATA.formattedPhone2}
+            </a>
+            <a
+              href={whatsappHref(t.whatsapp.greeting)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 text-sm font-semibold text-[var(--color-whatsapp)] py-2"
+            >
+              <MessageCircle className="w-4 h-4" aria-hidden />
+              {t.nav.whatsapp}
             </a>
           </div>
         </div>

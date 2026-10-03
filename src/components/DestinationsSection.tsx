@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, MapPin } from 'lucide-react';
 import { useI18n } from '../i18n/I18nProvider';
 import { Reveal } from './Reveal';
+import { DESTINATION_PATH_BY_ID } from '../lib/seoConfig';
 
 interface DestinationsSectionProps {
   onEnquireRoute: (destination: string) => void;
@@ -59,6 +60,26 @@ export const DestinationsSection: React.FC<DestinationsSectionProps> = ({ onEnqu
               </div>
             </div>
           </div>
+        </Reveal>
+
+        <Reveal delayMs={60} className="mt-8">
+          <h3 className="text-xs font-bold uppercase tracking-[0.14em] text-[var(--color-faint)] mb-3">
+            {t.destinations.routeLinksLabel}
+          </h3>
+          <ul className="flex flex-wrap gap-2">
+            {t.destinations.items
+              .filter((item) => DESTINATION_PATH_BY_ID[item.id])
+              .map((item) => (
+                <li key={item.id}>
+                  <Link
+                    to={DESTINATION_PATH_BY_ID[item.id]}
+                    className="inline-flex items-center rounded-full border border-[var(--color-line)] bg-[var(--color-surface)] px-3 py-1.5 text-sm font-medium text-[var(--color-ink-soft)] hover:border-[var(--color-accent)] hover:text-[var(--color-accent-text)]"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+          </ul>
         </Reveal>
 
         {/* Direct Link to full destinations directory */}
