@@ -5,7 +5,7 @@ import { EnquirySection } from '../components/EnquirySection';
 import { BUSINESS_ADDRESS, CONTACT_DATA, businessAddressDisplay, businessMapsUrl, publicEmailHref, telHref, whatsappHref } from '../lib/contact';
 import { useI18n } from '../i18n/I18nProvider';
 import { getPagesCopy } from '../i18n/pages';
-import { Phone, MessageCircle, Mail } from 'lucide-react';
+import { Phone, MessageCircle, Mail, MapPin } from 'lucide-react';
 
 export const ContactPage: React.FC = () => {
   const { t, locale } = useI18n();
@@ -72,6 +72,15 @@ export const ContactPage: React.FC = () => {
             <a href={publicEmailHref()} className="btn btn-secondary">
               <Mail className="w-4 h-4" aria-hidden />
               {CONTACT_DATA.email}
+            </a>
+            <a
+              href={businessMapsUrl()}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-secondary"
+            >
+              <MapPin className="w-4 h-4 text-[var(--color-accent-text)]" aria-hidden />
+              {t.footer.maps}
             </a>
           </div>
         </div>

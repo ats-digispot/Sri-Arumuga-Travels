@@ -3,7 +3,7 @@
  * Street and PIN are the owner's confirmed desk location (see BUSINESS_ADDRESS).
  * Do not invent hours, geo coordinates, prices, or ratings.
  */
-import { CONTACT_DATA } from './contact.ts';
+import { BUSINESS_ADDRESS, CONTACT_DATA } from './contact.ts';
 import { BRAND } from './content.ts';
 
 export const BUSINESS = {
@@ -24,6 +24,11 @@ export const BUSINESS = {
   logoPath: '/logo.png',
   /** Social / WebPage primary image path (scenic hero — not the logo) */
   ogImagePath: '/hero-scene.webp',
+  mapsUrl: BUSINESS_ADDRESS.mapsUrl,
+  geo: {
+    latitude: BUSINESS_ADDRESS.latitude,
+    longitude: BUSINESS_ADDRESS.longitude,
+  },
 } as const;
 
 /** Cities / regions already served on this site (JSON-LD areaServed). */

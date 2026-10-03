@@ -13,7 +13,7 @@ export interface ContactInfo {
   country: string;
 }
 
-/** Confirmed desk pin. Street lines are the owner's wording. Plus code only — no invented lat/long. */
+/** Confirmed desk pin and Google Business profile location. */
 export const BUSINESS_ADDRESS = {
   plusCode: 'GJ7P+3QH',
   street: 'Keelapatti Street, Mariamman Kovil Street',
@@ -22,6 +22,9 @@ export const BUSINESS_ADDRESS = {
   region: 'Tamil Nadu',
   postalCode: '626125',
   countryCode: 'IN',
+  latitude: 9.51871,
+  longitude: 77.634877,
+  mapsUrl: 'https://maps.app.goo.gl/Mi3kFoX4Ym1JhxVs5',
 } as const;
 
 /** Human-readable street block. Plus code is separate so it appears once beside this line. */
@@ -37,7 +40,7 @@ export function businessMapsQuery(): string {
 }
 
 export function businessMapsUrl(): string {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(businessMapsQuery())}`;
+  return BUSINESS_ADDRESS.mapsUrl;
 }
 
 export const CONTACT_DATA: ContactInfo = {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useI18n } from '../i18n/I18nProvider';
 import { Reveal } from './Reveal';
-import { CONTACT_DATA, telHref } from '../lib/contact';
+import { CONTACT_DATA, businessMapsUrl, telHref } from '../lib/contact';
 
 interface StorySectionProps {
   onEnquiryClick: () => void;
@@ -59,6 +59,20 @@ export const StorySection: React.FC<StorySectionProps> = ({ onEnquiryClick }) =>
               <div className="flex justify-between gap-4">
                 <dt className="text-[var(--color-faint)]">{t.story.coverage}</dt>
                 <dd className="font-medium text-[var(--color-ink-soft)]">{t.story.coverageValue}</dd>
+              </div>
+              <div className="flex justify-between gap-4">
+                <dt className="text-[var(--color-faint)]">{t.footer.maps}</dt>
+                <dd className="font-medium text-[var(--color-ink-soft)]">
+                  <a
+                    href={businessMapsUrl()}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-[var(--color-accent-text)] hover:underline inline-flex items-center gap-1 font-medium"
+                  >
+                    <span>Google Maps</span>
+                    <span aria-hidden="true" className="text-xs">↗</span>
+                  </a>
+                </dd>
               </div>
               <div className="flex justify-between items-center gap-4 pt-3 border-t border-[var(--color-line)]">
                 <dt className="text-[var(--color-faint)]">{t.story.directPhone}</dt>
