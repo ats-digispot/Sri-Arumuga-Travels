@@ -1,7 +1,7 @@
 import React from 'react';
 import { CONTACT_DATA, whatsappHref } from '../lib/contact';
 import { BRAND } from '../lib/content';
-import { SITE_URL, BRAND_LOGO_URL, HERO_IMAGE_URL } from '../lib/site';
+import { SITE_URL, BRAND_LOGO_SQUARE_URL, BRAND_LOGO_URL, HERO_IMAGE_URL } from '../lib/site';
 import { andalTempleNode, localBusinessNode, organizationNode } from '../lib/businessJsonLd';
 import { useI18n } from '../i18n/I18nProvider';
 
@@ -19,9 +19,9 @@ export const SeoSchema: React.FC = () => {
       : 'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
 
   const graph: Record<string, unknown>[] = [
-    organizationNode(SITE_URL, BRAND_LOGO_URL),
+    organizationNode(SITE_URL, BRAND_LOGO_SQUARE_URL),
     {
-      ...localBusinessNode(SITE_URL, BRAND_LOGO_URL, businessDescription),
+      ...localBusinessNode(SITE_URL, BRAND_LOGO_SQUARE_URL, businessDescription, BRAND_LOGO_URL),
       alternateName: t.brand.name,
       potentialAction: [
         {

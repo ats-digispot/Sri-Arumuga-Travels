@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import { useLocation } from 'react-router-dom';
 import { CONTACT_DATA, whatsappHref } from '../../lib/contact';
 import { BRAND } from '../../lib/content';
-import { SITE_URL, absoluteUrl, BRAND_LOGO_URL, HERO_IMAGE_URL } from '../../lib/site';
+import { SITE_URL, absoluteUrl, BRAND_LOGO_URL, BRAND_LOGO_SQUARE_URL, HERO_IMAGE_URL } from '../../lib/site';
 import { getRouteByPath, type SeoRoute } from '../../lib/seoConfig';
 import {
   andalTempleNode,
@@ -15,7 +15,7 @@ import { getPagesCopy } from '../../i18n/pages';
 
 function businessNode(waUrl: string, description: string) {
   return {
-    ...localBusinessNode(SITE_URL, BRAND_LOGO_URL, description),
+    ...localBusinessNode(SITE_URL, BRAND_LOGO_SQUARE_URL, description, BRAND_LOGO_URL),
     potentialAction: [
       {
         '@type': 'ContactAction',
@@ -90,7 +90,7 @@ export const RouteJsonLd: React.FC = () => {
         : 'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
 
     const graph: Record<string, unknown>[] = [
-      organizationNode(SITE_URL, BRAND_LOGO_URL),
+      organizationNode(SITE_URL, BRAND_LOGO_SQUARE_URL),
       businessNode(waUrl, businessDescription),
       {
         '@type': 'WebSite',

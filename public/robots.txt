@@ -1,6 +1,18 @@
 User-agent: *
 Allow: /
+Allow: /favicon.ico
+Allow: /favicon.svg
+Allow: /favicon.png
+Allow: /favicon-32x32.png
+Allow: /icon-192.png
+Allow: /icon-512.png
+Allow: /apple-touch-icon.png
+Allow: /logo-square.png
+Allow: /logo-mark.png
+Allow: /logo.png
+Allow: /logo.webp
+
+# Query-string URLs only. Favicon and logo files above stay crawlable.
 Disallow: /*?*
 
 Sitemap: https://sriarumugatravels.vercel.app/sitemap.xml
-

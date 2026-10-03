@@ -20,8 +20,10 @@ export const BUSINESS = {
   /** Sedan / small-car only — not tempo, bus, or a published fare card. */
   vehicle: 'Sedans such as Toyota Etios (small-car travel)',
   homeBaseSlug: 'srivilliputtur',
-  /** Brand logo path (pair with absoluteUrl in schema) */
+  /** Full wordmark lockup (schema image / not the search favicon). */
   logoPath: '/logo.png',
+  /** Square crop of the real SA mark from logo.webp. Schema logo + favicon. */
+  squareLogoPath: '/logo-square.png',
   /** Social / WebPage primary image path (scenic hero — not the logo) */
   ogImagePath: '/hero-scene.webp',
   mapsUrl: BUSINESS_ADDRESS.mapsUrl,

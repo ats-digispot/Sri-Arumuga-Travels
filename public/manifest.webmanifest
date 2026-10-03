@@ -1,7 +1,7 @@
 {
   "name": "Sri Arumuga Travels",
   "short_name": "Sri Arumuga",
-  "description": "Srivilliputtur taxi and outstation cab — sedan trips across India. Call or WhatsApp to enquire.",
+  "description": "Srivilliputtur taxi and outstation cab \u2014 sedan trips across India. Call or WhatsApp to enquire.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -10,14 +10,8 @@
   "lang": "en-IN",
   "icons": [
     {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "/favicon-32x32.png",
-      "sizes": "32x32",
+      "src": "/logo-square.png",
+      "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
@@ -37,6 +31,12 @@
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
       "purpose": "any"
     }
   ]

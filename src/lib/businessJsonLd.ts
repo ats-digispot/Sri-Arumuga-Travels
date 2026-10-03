@@ -61,7 +61,12 @@ export function organizationNode(siteUrl: string, logoUrl: string) {
   };
 }
 
-export function localBusinessNode(siteUrl: string, logoUrl: string, description: string) {
+export function localBusinessNode(
+  siteUrl: string,
+  logoUrl: string,
+  description: string,
+  imageUrl?: string
+) {
   return {
     '@type': ['LocalBusiness', 'TravelAgency'] as const,
     '@id': `${siteUrl}/#business`,
@@ -69,7 +74,7 @@ export function localBusinessNode(siteUrl: string, logoUrl: string, description:
     description,
     url: `${siteUrl}/`,
     logo: logoUrl,
-    image: logoUrl,
+    image: imageUrl ?? `${siteUrl}/logo.png`,
     telephone: PHONE_E164[0],
     email: CONTACT_DATA.email,
     hasMap: BUSINESS_ADDRESS.mapsUrl,

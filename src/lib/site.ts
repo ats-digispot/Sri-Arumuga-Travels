@@ -17,9 +17,13 @@ export function absoluteUrl(path = '/'): string {
   return `${SITE_URL}${normalized}`;
 }
 
-/** Brand logo (schema.logo / header / footer). */
+/** Full wordmark lockup (header, footer, schema image). */
 export const BRAND_LOGO_PATH = '/logo.png';
 export const BRAND_LOGO_URL = absoluteUrl(BRAND_LOGO_PATH);
+
+/** Square crop of the real logo mark — JSON-LD logo and search favicon. */
+export const BRAND_LOGO_SQUARE_PATH = '/logo-square.png';
+export const BRAND_LOGO_SQUARE_URL = absoluteUrl(BRAND_LOGO_SQUARE_PATH);
 
 /** Square mark for compact UI / icons. */
 export const BRAND_LOGO_MARK_PATH = '/logo-mark.png';

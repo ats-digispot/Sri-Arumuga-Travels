@@ -6,7 +6,7 @@ import { BUSINESS_ADDRESS, CONTACT_DATA, businessAddressDisplay, businessMapsUrl
 import { BRAND } from './content.ts';
 import { en } from '../i18n/en.ts';
 import { pagesEn } from '../i18n/pages/en.ts';
-import { SEO_ROUTES, type SeoRoute } from './seoConfig.ts';
+import { BUSINESS, SEO_ROUTES, type SeoRoute } from './seoConfig.ts';
 import {
   andalTempleNode,
   localBusinessNode,
@@ -44,13 +44,14 @@ export function buildHomeJsonLd(siteUrl: string): Record<string, unknown> {
   const t = en;
   const pageUrl = `${siteUrl}/`;
   const heroImage = `${siteUrl}/hero-scene.webp`;
-  const logoUrl = `${siteUrl}/logo.png`;
+  const logoUrl = `${siteUrl}${BUSINESS.squareLogoPath}`;
+  const imageUrl = `${siteUrl}${BUSINESS.logoPath}`;
   const waUrl = whatsappHref(t.whatsapp.greeting);
 
   const description =
     'Taxi & travels in Srivilliputtur, Tamil Nadu. Book sedan outstation cabs, Madurai airport drops, and temple tours. Call or WhatsApp Sri Arumuga Travels today.';
   const business = {
-    ...localBusinessNode(siteUrl, logoUrl, description),
+    ...localBusinessNode(siteUrl, logoUrl, description, imageUrl),
     alternateName: t.brand.name,
     potentialAction: [
       {
@@ -203,13 +204,14 @@ export function buildCrawlableHomeHtml(siteUrl: string): string {
 
 function pageJsonLd(siteUrl: string, route: SeoRoute, faqs?: { q: string; a: string }[]) {
   const pageUrl = `${siteUrl}${route.path === '/' ? '/' : route.path}`;
-  const logoUrl = `${siteUrl}/logo.png`;
+  const logoUrl = `${siteUrl}${BUSINESS.squareLogoPath}`;
+  const imageUrl = `${siteUrl}${BUSINESS.logoPath}`;
   const heroImage = `${siteUrl}/hero-scene.webp`;
   const description =
     'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
   const graph: Record<string, unknown>[] = [
     organizationNode(siteUrl, logoUrl),
-    localBusinessNode(siteUrl, logoUrl, description),
+    localBusinessNode(siteUrl, logoUrl, description, imageUrl),
     {
       '@type': 'WebPage',
       '@id': `${pageUrl}#webpage`,

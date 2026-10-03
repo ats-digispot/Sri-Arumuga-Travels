@@ -121,7 +121,7 @@ export function buildBlogPostShell(siteUrl: string, post: BlogPost): string {
       '@type': 'LocalBusiness',
       name: 'Sri Arumuga Travels',
       url: `${siteUrl}/`,
-      logo: `${siteUrl}/logo.png`,
+      logo: `${siteUrl}/logo-square.png`,
     },
     mainEntityOfPage: pageUrl,
     inLanguage: post.lang === 'ta' ? 'ta-IN' : 'en-IN',
