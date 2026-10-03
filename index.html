@@ -68,7 +68,12 @@
     </script>
     <style>
       /* Prevent Flash of Unstyled Content (FOUC) while preserving full raw HTML for static SEO crawlers */
-      html.js .seo-prerender {
+      html, body {
+        background-color: #f6f1e8;
+        color: #1f1a17;
+      }
+      html.js .seo-prerender,
+      html.js #static-seo-shell {
         display: none !important;
       }
       #static-seo-shell {

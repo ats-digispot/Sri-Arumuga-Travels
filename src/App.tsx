@@ -36,9 +36,8 @@ function ScrollToTop() {
 function AppShell() {
   const { t } = useI18n();
   React.useEffect(() => {
-    // React chrome (footer, contact, hero) now owns the phones. Keep the static
-    // shell in the initial HTML for crawlers that do not run the bundle.
-    document.getElementById('static-seo-shell')?.setAttribute('hidden', 'hidden');
+    // React chrome (footer, contact, hero) now owns the UI.
+    document.getElementById('static-seo-shell')?.remove();
   }, []);
   const navigate = useNavigate();
   const location = useLocation();

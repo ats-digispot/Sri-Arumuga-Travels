@@ -113,14 +113,19 @@ export const en: Dictionary = {
     title: 'A clear conversation before every journey.',
     lede:
       'Steady coordination, a comfortable sedan, and plain answers when you call — so you can leave with a quiet mind.',
-    fleetEyebrow: 'On the road',
-    fleetTitle: 'Fleet banner and Etios',
+    fleetEyebrow: 'Dedicated Sedan · TN 84 F 6278',
+    fleetTitle: 'Toyota Etios GD (TN 84 F 6278)',
     fleetBody:
-      'The banner labels Toyota Innova (7 seat, diesel), Toyota Etios GD TN 84 F 6278 (4 seat, 2 luggage, diesel), Hyundai Verna (4 seat, 3 luggage, petrol), and Hyundai Grand i10 (4 seat, 2 luggage, petrol). The photograph is the grey Toyota Etios, plate TN 84 F 6278, a Srivilliputtur taxi. Seat and luggage figures are the labels printed on the banner. Fares are confirmed by call or WhatsApp — this page does not list per-km rates.',
-    fleetBannerAlt:
-      'Sri Arumuga Travels fleet in Srivilliputtur: Toyota Innova, Toyota Etios, Hyundai Verna, Hyundai Grand i10.',
+      'Our dedicated Toyota Etios GD sedan for outstation, Madurai airport, and temple journeys — clean AC interior, experienced driver, and careful driving on every road. Fares are confirmed upfront by call or WhatsApp.',
     etiosAlt:
       'Grey Toyota Etios TN 84 F 6278, a Srivilliputtur taxi, parked outdoors',
+    etiosBadges: ['AC Comfort', 'Up to 4 Passengers', 'Boot Luggage Space', 'Careful Driving'],
+    fleetBannerEyebrow: 'Fleet Options & Variety',
+    fleetBannerTitle: 'Options for Every Journey — Sedans, Larger Family Cars & More',
+    fleetBannerBody:
+      'The fleet lineup includes Toyota Innova (7 seat, diesel), Toyota Etios GD (4 seat, diesel), Hyundai Verna (4 seat, petrol), and Hyundai Grand i10 (4 seat, petrol). Seat and luggage capacities are matched to your family size and luggage requirements. Fares are confirmed upfront by call or WhatsApp.',
+    fleetBannerAlt:
+      'Sri Arumuga Travels fleet in Srivilliputtur: Toyota Innova, Toyota Etios, Hyundai Verna, Hyundai Grand i10.',
     howTitle: 'How a trip usually begins',
     points: [
       {
