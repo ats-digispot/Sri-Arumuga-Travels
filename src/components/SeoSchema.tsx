@@ -2,6 +2,7 @@ import React from 'react';
 import { CONTACT_DATA, whatsappHref } from '../lib/contact';
 import { BRAND } from '../lib/content';
 import { SITE_URL, BRAND_LOGO_URL, HERO_IMAGE_URL } from '../lib/site';
+import { andalTempleNode, localBusinessNode, organizationNode } from '../lib/businessJsonLd';
 import { useI18n } from '../i18n/I18nProvider';
 
 /** LocalBusiness / TravelAgency + WebSite + WebPage (+ FAQ when present). Facts only. */
@@ -10,7 +11,6 @@ export const SeoSchema: React.FC = () => {
   const pageUrl = `${SITE_URL}/`;
   const heroImage = HERO_IMAGE_URL;
   const waUrl = whatsappHref(t.whatsapp.greeting);
-  const phones = [`+91${CONTACT_DATA.phone1}`, `+91${CONTACT_DATA.phone2}`];
   const inLanguage = locale === 'ta' ? 'ta-IN' : 'en-IN';
 
   const businessDescription =
@@ -19,33 +19,20 @@ export const SeoSchema: React.FC = () => {
       : 'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
 
   const graph: Record<string, unknown>[] = [
+    organizationNode(SITE_URL, BRAND_LOGO_URL),
     {
-      '@type': ['LocalBusiness', 'TravelAgency'],
-      '@id': `${SITE_URL}/#business`,
-      name: BRAND.name,
+      ...localBusinessNode(SITE_URL, BRAND_LOGO_URL, businessDescription),
       alternateName: t.brand.name,
-      description: businessDescription,
-      url: pageUrl,
-      logo: BRAND_LOGO_URL,
-      image: BRAND_LOGO_URL,
-      telephone: phones,
-      email: CONTACT_DATA.email,
-      address: {
-        '@type': 'PostalAddress',
-        addressLocality: CONTACT_DATA.location,
-        addressRegion: CONTACT_DATA.region,
-        addressCountry: 'IN',
-      },
-      areaServed: [
-        { '@type': 'City', name: 'Srivilliputtur' },
-        { '@type': 'State', name: 'Tamil Nadu' },
-        { '@type': 'Country', name: 'India' },
-      ],
       potentialAction: [
         {
           '@type': 'ContactAction',
           name: 'Call',
           target: `tel:+91${CONTACT_DATA.phone1}`,
+        },
+        {
+          '@type': 'ContactAction',
+          name: 'Call',
+          target: `tel:+91${CONTACT_DATA.phone2}`,
         },
         {
           '@type': 'CommunicateAction',
@@ -60,6 +47,7 @@ export const SeoSchema: React.FC = () => {
         },
       ],
     },
+    andalTempleNode(SITE_URL),
     {
       '@type': 'WebSite',
       '@id': `${SITE_URL}/#website`,
@@ -81,6 +69,7 @@ export const SeoSchema: React.FC = () => {
       description: t.hero.lede,
       isPartOf: { '@id': `${SITE_URL}/#website` },
       about: { '@id': `${SITE_URL}/#business` },
+      mentions: { '@id': `${SITE_URL}/#andal-temple` },
       primaryImageOfPage: heroImage,
       inLanguage,
     },

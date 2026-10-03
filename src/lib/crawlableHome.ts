@@ -6,7 +6,12 @@ import { CONTACT_DATA, whatsappHref } from './contact.ts';
 import { BRAND } from './content.ts';
 import { en } from '../i18n/en.ts';
 import { pagesEn } from '../i18n/pages/en.ts';
-import { SEO_ROUTES, BUSINESS, AREA_SERVED, type SeoRoute } from './seoConfig.ts';
+import { SEO_ROUTES, type SeoRoute } from './seoConfig.ts';
+import {
+  andalTempleNode,
+  localBusinessNode,
+  organizationNode,
+} from './businessJsonLd.ts';
 import { getBlogSlugsForPath } from '../content/blog/relatedByRoute.ts';
 import { getPost } from '../content/blog/registry.ts';
 
@@ -41,59 +46,35 @@ export function buildHomeJsonLd(siteUrl: string): Record<string, unknown> {
   const heroImage = `${siteUrl}/hero-scene.webp`;
   const logoUrl = `${siteUrl}/logo.png`;
   const waUrl = whatsappHref(t.whatsapp.greeting);
-  const phones = [`+91${CONTACT_DATA.phone1}`, `+91${CONTACT_DATA.phone2}`];
 
+  const description =
+    'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
+  const business = {
+    ...localBusinessNode(siteUrl, logoUrl, description),
+    alternateName: t.brand.name,
+    potentialAction: [
+      {
+        '@type': 'ContactAction',
+        name: 'Call',
+        target: `tel:+91${CONTACT_DATA.phone1}`,
+      },
+      {
+        '@type': 'ContactAction',
+        name: 'Call',
+        target: `tel:+91${CONTACT_DATA.phone2}`,
+      },
+      {
+        '@type': 'CommunicateAction',
+        name: 'WhatsApp',
+        target: waUrl,
+        url: waUrl,
+      },
+    ],
+  };
   const graph: Record<string, unknown>[] = [
-    {
-      '@type': ['LocalBusiness', 'TravelAgency'],
-      '@id': `${siteUrl}/#business`,
-      name: BRAND.name,
-      alternateName: t.brand.name,
-      description:
-        'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.',
-      url: pageUrl,
-      logo: logoUrl,
-      image: logoUrl,
-      telephone: phones,
-      email: CONTACT_DATA.email,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: BUSINESS.streetAddress,
-        addressLocality: CONTACT_DATA.location,
-        addressRegion: CONTACT_DATA.region,
-        postalCode: BUSINESS.postalCode,
-        addressCountry: 'IN',
-      },
-      priceRange: BUSINESS.priceRange,
-      currenciesAccepted: BUSINESS.currenciesAccepted,
-      paymentAccepted: BUSINESS.paymentAccepted,
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: BUSINESS.geo.latitude,
-        longitude: BUSINESS.geo.longitude,
-      },
-      openingHoursSpecification: BUSINESS.openingHoursSpecification.map((item) => ({
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: item.dayOfWeek,
-        opens: item.opens,
-        closes: item.closes,
-      })),
-      areaServed: AREA_SERVED.map((a) => ({ ...a })),
-      keywords: 'Srivilliputtur taxi, Srivilliputhur travels, outstation cab, Madurai airport taxi, Andal Temple, Rajapalayam cab',
-      potentialAction: [
-        {
-          '@type': 'ContactAction',
-          name: 'Call',
-          target: `tel:+91${CONTACT_DATA.phone1}`,
-        },
-        {
-          '@type': 'CommunicateAction',
-          name: 'WhatsApp',
-          target: waUrl,
-          url: waUrl,
-        },
-      ],
-    },
+    organizationNode(siteUrl, logoUrl),
+    business,
+    andalTempleNode(siteUrl),
     {
       '@type': 'WebSite',
       '@id': `${siteUrl}/#website`,
@@ -113,6 +94,7 @@ export function buildHomeJsonLd(siteUrl: string): Record<string, unknown> {
       keywords: 'taxi and travels in Srivilliputtur, Srivilliputhur, Sri Arumuga Travels',
       isPartOf: { '@id': `${siteUrl}/#website` },
       about: { '@id': `${siteUrl}/#business` },
+      mentions: { '@id': `${siteUrl}/#andal-temple` },
       primaryImageOfPage: heroImage,
       inLanguage: 'en-IN',
     },
@@ -215,43 +197,11 @@ function pageJsonLd(siteUrl: string, route: SeoRoute, faqs?: { q: string; a: str
   const pageUrl = `${siteUrl}${route.path === '/' ? '/' : route.path}`;
   const logoUrl = `${siteUrl}/logo.png`;
   const heroImage = `${siteUrl}/hero-scene.webp`;
-  const phones = [`+91${CONTACT_DATA.phone1}`, `+91${CONTACT_DATA.phone2}`];
+  const description =
+    'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
   const graph: Record<string, unknown>[] = [
-    {
-      '@type': ['LocalBusiness', 'TravelAgency'],
-      '@id': `${siteUrl}/#business`,
-      name: BRAND.name,
-      description:
-        'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.',
-      url: `${siteUrl}/`,
-      logo: logoUrl,
-      image: logoUrl,
-      telephone: phones,
-      email: CONTACT_DATA.email,
-      address: {
-        '@type': 'PostalAddress',
-        streetAddress: BUSINESS.streetAddress,
-        addressLocality: CONTACT_DATA.location,
-        addressRegion: CONTACT_DATA.region,
-        postalCode: BUSINESS.postalCode,
-        addressCountry: 'IN',
-      },
-      priceRange: BUSINESS.priceRange,
-      currenciesAccepted: BUSINESS.currenciesAccepted,
-      paymentAccepted: BUSINESS.paymentAccepted,
-      geo: {
-        '@type': 'GeoCoordinates',
-        latitude: BUSINESS.geo.latitude,
-        longitude: BUSINESS.geo.longitude,
-      },
-      openingHoursSpecification: BUSINESS.openingHoursSpecification.map((item) => ({
-        '@type': 'OpeningHoursSpecification',
-        dayOfWeek: item.dayOfWeek,
-        opens: item.opens,
-        closes: item.closes,
-      })),
-      areaServed: AREA_SERVED.map((a) => ({ ...a })),
-    },
+    organizationNode(siteUrl, logoUrl),
+    localBusinessNode(siteUrl, logoUrl, description),
     {
       '@type': 'WebPage',
       '@id': `${pageUrl}#webpage`,

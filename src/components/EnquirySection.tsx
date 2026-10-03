@@ -7,7 +7,7 @@ import {
   enquiryMailtoHref,
   getOptionalFormEndpoint,
   isValidIndianMobile,
-  mailtoHref,
+  publicEmailHref,
   submitEnquiryToOptionalEndpoint,
   telHref,
   trackEnquiryClarity,
@@ -285,7 +285,7 @@ export const EnquirySection: React.FC<EnquirySectionProps> = ({
               <Phone className="w-5 h-5 text-[var(--color-muted)]" aria-hidden />
             </a>
             <a
-              href={mailtoHref()}
+              href={publicEmailHref()}
               className="card flex items-center justify-between p-4 hover:border-[var(--color-accent)] transition-colors"
             >
               <div>

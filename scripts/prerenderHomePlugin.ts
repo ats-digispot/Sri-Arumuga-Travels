@@ -73,6 +73,26 @@ function writeShell(outDir: string, routePath: string, html: string) {
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
 }
 
+
+function hoistJsonLd(html: string): string {
+  const re = /<script type="application\/ld\+json">([\s\S]*?)<\/script>/i;
+  const placeholder = /<script type="application\/ld\+json" id="seo-jsonld">[\s\S]*?<\/script>/i;
+  const match = html.match(re);
+  if (!match) {
+    // Template carries the homepage graph. Pages without their own JSON-LD must not keep it.
+    return html.replace(placeholder, '');
+  }
+  const json = match[1].trim();
+  let out = html.replace(match[0], '');
+  const block = `<script type="application/ld+json" id="seo-jsonld">${json}</script>`;
+  if (placeholder.test(out)) {
+    out = out.replace(placeholder, block);
+  } else {
+    out = out.replace('</head>', `    ${block}\n  </head>`);
+  }
+  return out;
+}
+
 function injectIntoTemplate(cleanTemplate: string, shell: string): string {
   return cleanTemplate.replace(
     /<div id=["']root["']>\s*<\/div>/i,
@@ -121,6 +141,7 @@ export function prerenderHomePlugin(): Plugin {
         let html = injectIntoTemplate(cleanTemplate, shell);
         const home = SEO_ROUTES.find((r) => r.path === '/')!;
         html = applyMeta(html, siteUrl, home.title, home.description, '/');
+        html = hoistJsonLd(html);
         fs.writeFileSync(indexPath, html, 'utf8');
       }
 
@@ -130,6 +151,7 @@ export function prerenderHomePlugin(): Plugin {
         const shell = buildCrawlableRouteHtml(siteUrl, route);
         let html = injectIntoTemplate(cleanTemplate, shell);
         html = applyRouteMetaToHtml(html, siteUrl, route);
+        html = hoistJsonLd(html);
         writeShell(outDir, route.path, html);
       }
 
@@ -144,6 +166,7 @@ export function prerenderHomePlugin(): Plugin {
           'Practical travel guides for Srivilliputtur and southern Tamil Nadu — temples, outstation cabs, road trips, and planning tips. English and Tamil.',
           '/blog'
         );
+        html = hoistJsonLd(html);
         writeShell(outDir, '/blog', html);
       }
 
@@ -158,6 +181,7 @@ export function prerenderHomePlugin(): Plugin {
           post.description,
           `/blog/${post.slug}`
         );
+        html = hoistJsonLd(html);
         // Ensure exact language attribute
         if (post.lang === 'ta') {
           html = html.replace(/<html lang=["'][^"']*["']/i, '<html lang="ta-IN"');
@@ -184,6 +208,7 @@ export function prerenderHomePlugin(): Plugin {
           c.descriptionEn,
           `/blog/category/${c.slug}`
         );
+        html = hoistJsonLd(html);
         writeShell(outDir, `/blog/category/${c.slug}`, html);
       }
 
@@ -204,6 +229,7 @@ export function prerenderHomePlugin(): Plugin {
           `Travel articles tagged ${t.nameEn} from Sri Arumuga Travels — practical guides for southern Tamil Nadu journeys.`,
           `/blog/tag/${t.slug}`
         );
+        html = hoistJsonLd(html);
         writeShell(outDir, `/blog/tag/${t.slug}`, html);
       }
 

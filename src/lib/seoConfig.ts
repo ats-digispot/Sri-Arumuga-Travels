@@ -1,6 +1,8 @@
 /**
- * Central SEO / business config — verified NAP and routes only.
- * Do not invent street address, hours, prices, ratings, or unconfirmed towns.
+ * Central SEO / business config — verified facts only.
+ * Street, PIN, geo, and opening hours are omitted: the owner never verified
+ * them in this project. Do not invent street, PIN, hours, geo, prices, or ratings.
+ * Visible and schema address is city + Tamil Nadu only.
  */
 import { CONTACT_DATA } from './contact.ts';
 import { BRAND } from './content.ts';
@@ -9,38 +11,15 @@ export const BUSINESS = {
   name: BRAND.name,
   shortName: BRAND.shortName,
   legalName: BRAND.name,
-  streetAddress: 'Near Andal Temple, Main Road',
   addressLocality: CONTACT_DATA.location,
   addressRegion: CONTACT_DATA.region,
-  postalCode: '626125',
   addressCountry: 'IN',
-  priceRange: '₹₹',
-  currenciesAccepted: 'INR',
-  paymentAccepted: 'Cash, UPI',
-  geo: {
-    latitude: 9.5107,
-    longitude: 77.6322,
-  },
-  openingHoursSpecification: [
-    {
-      dayOfWeek: [
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-        'Saturday',
-        'Sunday',
-      ],
-      opens: '00:00',
-      closes: '23:59',
-    },
-  ],
   phones: [CONTACT_DATA.phone1, CONTACT_DATA.phone2] as const,
   formattedPhones: [CONTACT_DATA.formattedPhone1, CONTACT_DATA.formattedPhone2] as const,
   email: CONTACT_DATA.email,
   bookingMethods: ['Call', 'WhatsApp', 'Email'] as const,
-  vehicle: 'Sedans, larger family cars & group options',
+  /** Sedan / small-car only — not tempo, bus, or a published fare card. */
+  vehicle: 'Sedans such as Toyota Etios (small-car travel)',
   homeBaseSlug: 'srivilliputtur',
   /** Brand logo path (pair with absoluteUrl in schema) */
   logoPath: '/logo.png',

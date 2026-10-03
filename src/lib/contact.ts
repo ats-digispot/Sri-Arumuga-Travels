@@ -31,6 +31,11 @@ export function telHref(phone: string): string {
   return `tel:+91${phone}`;
 }
 
+/** Visible email link. Address only — no cc or other query, so parsers do not treat junk as the address. */
+export function publicEmailHref(): string {
+  return `mailto:${CONTACT_DATA.email}`;
+}
+
 export function whatsappHref(message?: string): string {
   const text = message ?? CONTACT_DATA.whatsappMessage;
   return `https://wa.me/91${CONTACT_DATA.phone1}?text=${encodeURIComponent(text)}`;

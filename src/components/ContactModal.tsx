@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { X, Phone, MessageCircle, Mail } from 'lucide-react';
-import { CONTACT_DATA, mailtoHref, telHref, whatsappHref } from '../lib/contact';
+import { CONTACT_DATA, publicEmailHref, telHref, whatsappHref } from '../lib/contact';
 import { useI18n } from '../i18n/I18nProvider';
 
 interface ContactModalProps {
@@ -83,9 +83,9 @@ export const ContactModal: React.FC<ContactModalProps> = ({ isOpen, onClose, onE
             <MessageCircle className="w-4 h-4" aria-hidden />
             {t.modal.whatsapp}
           </a>
-          <a href={mailtoHref()} className="btn btn-secondary w-full min-h-12">
+          <a href={publicEmailHref()} className="btn btn-secondary w-full min-h-12">
             <Mail className="w-4 h-4" aria-hidden />
-            {t.modal.email}
+            {CONTACT_DATA.email}
           </a>
           <button
             type="button"

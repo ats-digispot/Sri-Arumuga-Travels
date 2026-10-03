@@ -3,58 +3,29 @@ import { useLocation } from 'react-router-dom';
 import { CONTACT_DATA, whatsappHref } from '../../lib/contact';
 import { BRAND } from '../../lib/content';
 import { SITE_URL, absoluteUrl, BRAND_LOGO_URL, HERO_IMAGE_URL } from '../../lib/site';
+import { getRouteByPath, type SeoRoute } from '../../lib/seoConfig';
 import {
-  AREA_SERVED,
-  BUSINESS,
-  getRouteByPath,
-  type SeoRoute,
-} from '../../lib/seoConfig';
+  andalTempleNode,
+  localBusinessNode,
+  organizationNode,
+} from '../../lib/businessJsonLd';
 import { getPostMeta, resolveCategories } from '../../content/blog/registry';
 import { useI18n } from '../../i18n/I18nProvider';
 import { getPagesCopy } from '../../i18n/pages';
 
 function businessNode(waUrl: string, description: string) {
-  const phones = [`+91${CONTACT_DATA.phone1}`, `+91${CONTACT_DATA.phone2}`];
   return {
-    '@type': ['LocalBusiness', 'TravelAgency'],
-    '@id': `${SITE_URL}/#business`,
-    name: BRAND.name,
-    description,
-    url: `${SITE_URL}/`,
-    logo: BRAND_LOGO_URL,
-    image: BRAND_LOGO_URL,
-    telephone: phones,
-    email: CONTACT_DATA.email,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: BUSINESS.streetAddress,
-      addressLocality: BUSINESS.addressLocality,
-      addressRegion: BUSINESS.addressRegion,
-      postalCode: BUSINESS.postalCode,
-      addressCountry: BUSINESS.addressCountry,
-    },
-    priceRange: BUSINESS.priceRange,
-    currenciesAccepted: BUSINESS.currenciesAccepted,
-    paymentAccepted: BUSINESS.paymentAccepted,
-    geo: {
-      '@type': 'GeoCoordinates',
-      latitude: BUSINESS.geo.latitude,
-      longitude: BUSINESS.geo.longitude,
-    },
-    openingHoursSpecification: BUSINESS.openingHoursSpecification.map((item) => ({
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: item.dayOfWeek,
-      opens: item.opens,
-      closes: item.closes,
-    })),
-    areaServed: AREA_SERVED.map((a) => ({ ...a })),
-    keywords:
-      'Srivilliputtur taxi, Srivilliputhur travels, outstation cab, Madurai airport taxi, temple pilgrimage, Rajapalayam cab',
+    ...localBusinessNode(SITE_URL, BRAND_LOGO_URL, description),
     potentialAction: [
       {
         '@type': 'ContactAction',
         name: 'Call',
         target: `tel:+91${CONTACT_DATA.phone1}`,
+      },
+      {
+        '@type': 'ContactAction',
+        name: 'Call',
+        target: `tel:+91${CONTACT_DATA.phone2}`,
       },
       {
         '@type': 'CommunicateAction',
@@ -119,6 +90,7 @@ export const RouteJsonLd: React.FC = () => {
         : 'Taxi and small-car travel from Srivilliputtur, Tamil Nadu — outstation, airport, temple, and local trips across India.';
 
     const graph: Record<string, unknown>[] = [
+      organizationNode(SITE_URL, BRAND_LOGO_URL),
       businessNode(waUrl, businessDescription),
       {
         '@type': 'WebSite',
@@ -142,9 +114,13 @@ export const RouteJsonLd: React.FC = () => {
         keywords: route.title,
         isPartOf: { '@id': `${SITE_URL}/#website` },
         about: { '@id': `${SITE_URL}/#business` },
+        ...(route.path === '/' ? { mentions: { '@id': `${SITE_URL}/#andal-temple` } } : {}),
         primaryImageOfPage: HERO_IMAGE_URL,
         inLanguage,
       });
+      if (route.path === '/') {
+        graph.push(andalTempleNode(SITE_URL));
+      }
       if (route.path !== '/') {
         graph.push(breadcrumbList(route, pages.ui.home));
       }

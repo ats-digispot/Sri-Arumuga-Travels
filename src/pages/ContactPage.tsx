@@ -2,7 +2,7 @@ import React, { useMemo, useRef } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { Breadcrumbs } from '../components/Breadcrumbs';
 import { EnquirySection } from '../components/EnquirySection';
-import { CONTACT_DATA, mailtoHref, telHref, whatsappHref } from '../lib/contact';
+import { CONTACT_DATA, publicEmailHref, telHref, whatsappHref } from '../lib/contact';
 import { useI18n } from '../i18n/I18nProvider';
 import { getPagesCopy } from '../i18n/pages';
 import { Phone, MessageCircle, Mail } from 'lucide-react';
@@ -53,7 +53,7 @@ export const ContactPage: React.FC = () => {
               <MessageCircle className="w-4 h-4" aria-hidden />
               {t.common.whatsapp}
             </a>
-            <a href={mailtoHref()} className="btn btn-secondary">
+            <a href={publicEmailHref()} className="btn btn-secondary">
               <Mail className="w-4 h-4" aria-hidden />
               {CONTACT_DATA.email}
             </a>

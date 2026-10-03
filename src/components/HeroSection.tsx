@@ -56,7 +56,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onEnquiryClick }) => {
             </p>
             <h1
               id="hero-heading"
-              className="font-display font-semibold text-[clamp(2.25rem,5.8vw,3.9rem)] leading-[1.1] tracking-[-0.028em] text-white max-w-[15ch] text-balance rise-in"
+              className="font-display font-semibold text-[clamp(2.25rem,5.8vw,3.9rem)] leading-[1.1] tracking-[-0.028em] text-white max-w-[22ch] text-balance rise-in"
               style={{ animationDelay: '140ms' }}
             >
               {t.hero.titleBefore}{' '}
@@ -120,6 +120,13 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onEnquiryClick }) => {
                 className="font-bold text-white hover:text-[var(--color-accent-soft)] transition-colors underline decoration-white/40 underline-offset-2 font-mono tracking-wide"
               >
                 {CONTACT_DATA.formattedPhone1}
+              </a>
+              <span className="text-white/40" aria-hidden>·</span>
+              <a
+                href={telHref(CONTACT_DATA.phone2)}
+                className="font-bold text-white hover:text-[var(--color-accent-soft)] transition-colors underline decoration-white/40 underline-offset-2 font-mono tracking-wide"
+              >
+                {CONTACT_DATA.formattedPhone2}
               </a>
               <span className="text-white/40" aria-hidden>·</span>
               <span className="text-white/80">Srivilliputtur &amp; South TN</span>

@@ -107,7 +107,7 @@ Sitemap: https://sriarumugatravels.vercel.app/sitemap.xml
 | `WebPage` | `#webpage`; title/description locale-aware; `about` business |
 | `FAQPage` | When FAQ items exist (4 Q&As from i18n) |
 
-**Missing for strong local SEO (intentionally incomplete until owner facts):** `streetAddress`, `postalCode`, `geo` / `GeoCoordinates`, `openingHoursSpecification`, `priceRange`, `aggregateRating` (do **not** invent).
+**Missing for strong local SEO (intentionally incomplete until owner facts):** `streetAddress`, `postalCode`, `geo` / `GeoCoordinates`, `openingHoursSpecification`, `priceRange`, `aggregateRating` (do **not** invent). A later edit had added “Near Andal Temple, Main Road”, PIN 626125, town-centre coordinates, and 24/7 hours without an owner-verified source; those were removed again. Address stays Srivilliputtur, Tamil Nadu only.
 
 ---
 
