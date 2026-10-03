@@ -31,3 +31,12 @@ fleet-banner.webp / fleet-banner.png
 toyota-etios-tn84f6278.webp / toyota-etios-tn84f6278.png
   User-supplied outdoor photograph of the grey Toyota Etios, plate TN 84 F 6278.
   Shown in the fleet card next to the banner. Not the homepage LCP hero.
+
+
+public/blog/*.webp (43 unique blog covers)
+  Distinct cover images per blog slug for listing cards, article heroes, and
+  og:image. Sourced primarily from Unsplash (https://unsplash.com) with
+  per-slug color grade / vignette; a small number are topic-illustrated
+  generated scenes when a matching stock photo was unavailable. Not the
+  homepage hero or fleet photography. See scripts/blog-cover-map.json for
+  per-slug photo IDs and alt text.

@@ -1,0 +1,348 @@
+{
+  "meta": {
+    "airport-pickup-tips-madurai": {
+      "path": "/blog/airport-pickup-tips-madurai.webp",
+      "alt": "Aircraft wing above clouds at sunrise for Madurai airport pickup tips",
+      "photo": "photo-1436491865332-7a61a109cc05",
+      "bytes": 22076,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "andal-kovil-sandharshana-kurippu": {
+      "path": "/blog/andal-kovil-sandharshana-kurippu.webp",
+      "alt": "Colourful South Indian temple gopuram for Andal Kovil visit notes",
+      "photo": "photo-1582510003544-4d00b7f74220",
+      "bytes": 140892,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "bengaluru-road-trip-prep": {
+      "path": "/blog/bengaluru-road-trip-prep.webp",
+      "alt": "Multi-lane highway toward a city for Bengaluru road-trip prep",
+      "photo": "photo-1449965408869-eaa3f722e40d",
+      "bytes": 31516,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "chennai-outstation-travel-checklist": {
+      "path": "/blog/chennai-outstation-travel-checklist.webp",
+      "alt": "Busy coastal city road for a Chennai outstation checklist",
+      "photo": "photo-1532375810709-75b1da00537c",
+      "bytes": 20192,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "choosing-pickup-time-for-long-drives": {
+      "path": "/blog/choosing-pickup-time-for-long-drives.webp",
+      "alt": "Open road at dawn when choosing pickup time for long drives",
+      "photo": "photo-1469854523086-cc02fe5d8800",
+      "bytes": 134712,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "coimbatore-west-tn-travel": {
+      "path": "/blog/coimbatore-west-tn-travel.webp",
+      "alt": "Green mountain foothills on the road toward Coimbatore",
+      "photo": "photo-1506905925346-21bda4d32df4",
+      "bytes": 40176,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "courtallam-tenkasi-travel-notes": {
+      "path": "/blog/courtallam-tenkasi-travel-notes.webp",
+      "alt": "Forest waterfall for Courtallam and Tenkasi travel notes",
+      "photo": "photo-1432405972618-c60b0225b8f9",
+      "bytes": 135726,
+      "q": 70,
+      "source": "unsplash"
+    },
+    "family-travel-with-elders-tn": {
+      "path": "/blog/family-travel-with-elders-tn.webp",
+      "alt": "Calm lakeside road suited to family travel with elders",
+      "photo": "photo-1476514525535-07fb3b4ae5f1",
+      "bytes": 112696,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "festival-season-travel-planning-tn": {
+      "path": "/blog/festival-season-travel-planning-tn.webp",
+      "alt": "Festive evening lights for Tamil Nadu festival-season travel",
+      "photo": "photo-1514525253161-7a46d19cd819",
+      "bytes": 140668,
+      "q": 62,
+      "source": "unsplash"
+    },
+    "how-to-book-outstation-cab-tamil-nadu": {
+      "path": "/blog/how-to-book-outstation-cab-tamil-nadu.webp",
+      "alt": "Dark sedan on wet asphalt ready for outstation cab booking",
+      "photo": "photo-1485291571150-772bcfc10da5",
+      "bytes": 16322,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "iravu-payanam-pathukappu": {
+      "path": "/blog/iravu-payanam-pathukappu.webp",
+      "alt": "Night highway with soft headlights for safer night travel",
+      "photo": "photo-1494783367193-149034c05e8f",
+      "bytes": 124800,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "kanyakumari-from-southern-tn": {
+      "path": "/blog/kanyakumari-from-southern-tn.webp",
+      "alt": "Rocky southern coast at sunset toward Kanyakumari",
+      "photo": "photo-1582972236019-ea4af5ffe587",
+      "bytes": 140194,
+      "q": 55,
+      "source": "unsplash"
+    },
+    "kodaikanal-vaiyara-payanam": {
+      "path": "/blog/kodaikanal-vaiyara-payanam.webp",
+      "alt": "Mountain lake and mist for a Kodaikanal weekend journey",
+      "photo": "photo-1464822759023-fed622ff2c3b",
+      "bytes": 127022,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "kudumbam-payanam-yorchanai": {
+      "path": "/blog/kudumbam-payanam-yorchanai.webp",
+      "alt": "Travel bags and maps for family journey planning",
+      "photo": "photo-1488646953014-85cb44e25828",
+      "bytes": 124442,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "local-taxi-vs-outstation-cab": {
+      "path": "/blog/local-taxi-vs-outstation-cab.webp",
+      "alt": "City street vs longer highway mood for local taxi vs outstation cab",
+      "photo": "photo-1511919884226-fd3cad34687c",
+      "bytes": 119560,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "madurai-from-srivilliputtur-travel-tips": {
+      "path": "/blog/madurai-from-srivilliputtur-travel-tips.webp",
+      "alt": "Temple-city gopuram at dusk between Srivilliputtur and Madurai",
+      "photo": "photo-1605649487212-47bdab064df7",
+      "bytes": 122256,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "madurai-payanam-yorchanai": {
+      "path": "/blog/madurai-payanam-yorchanai.webp",
+      "alt": "Temple-town street on a Madurai journey",
+      "photo": "photo-1590050752117-238cb0fb12b1",
+      "bytes": 141208,
+      "q": 55,
+      "source": "unsplash"
+    },
+    "monsoon-travel-tips-tamil-nadu": {
+      "path": "/blog/monsoon-travel-tips-tamil-nadu.webp",
+      "alt": "Heavy monsoon clouds over green countryside for TN monsoon tips",
+      "photo": "photo-1519692933481-e162a57d6721",
+      "bytes": 33210,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "outstation-cab-ennave-theriyumo": {
+      "path": "/blog/outstation-cab-ennave-theriyumo.webp",
+      "alt": "Clean sedan ready for an outstation departure",
+      "photo": "photo-1503376780353-7e6692767b70",
+      "bytes": 34540,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "overnight-vs-day-travel-outstation": {
+      "path": "/blog/overnight-vs-day-travel-outstation.webp",
+      "alt": "Starry night sky above a quiet intercity highway",
+      "photo": "photo-1419242902214-272b3f66ee7a",
+      "bytes": 49156,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "packing-for-south-india-road-travel": {
+      "path": "/blog/packing-for-south-india-road-travel.webp",
+      "alt": "Open suitcase packed for South India road travel",
+      "photo": "photo-1553062407-98eeb64c6a62",
+      "bytes": 39006,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "planning-multi-stop-temple-circuit": {
+      "path": "/blog/planning-multi-stop-temple-circuit.webp",
+      "alt": "Temple spires across a multi-stop pilgrimage horizon",
+      "photo": "photo-1548013146-72479768bada",
+      "bytes": 93202,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "safe-night-travel-practices-tn": {
+      "path": "/blog/safe-night-travel-practices-tn.webp",
+      "alt": "Mountain night sky for careful overnight road practices",
+      "photo": "photo-1519681393784-d120267933ba",
+      "bytes": 74442,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "soft-cta-how-to-enquire-sat": {
+      "path": "/blog/soft-cta-how-to-enquire-sat.webp",
+      "alt": "Phone and notebook ready for a calm travel enquiry",
+      "photo": "photo-1556742049-0cfed4f6a45d",
+      "bytes": 38208,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "southern-tamil-nadu-road-trip-planner": {
+      "path": "/blog/southern-tamil-nadu-road-trip-planner.webp",
+      "alt": "Sunlit countryside road for a southern Tamil Nadu trip planner",
+      "photo": "photo-1469474968028-56623f02e42e",
+      "bytes": 40172,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "srivilliputtur-payanam-vazhikatti": {
+      "path": "/blog/srivilliputtur-payanam-vazhikatti.webp",
+      "alt": "Heritage temple tower guiding a Srivilliputtur visit",
+      "photo": "photo-1524492412937-b28074a5d7da",
+      "bytes": 98212,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "tamil-nadu-hill-station-basics": {
+      "path": "/blog/tamil-nadu-hill-station-basics.webp",
+      "alt": "Misty layered hills for Tamil Nadu hill-station basics",
+      "photo": "photo-1454496522488-7a8e488e8606",
+      "bytes": 69026,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "taxi-munbu-ketka-vendiyavai": {
+      "path": "/blog/taxi-munbu-ketka-vendiyavai.webp",
+      "alt": "Checklist notebook before asking taxi booking questions",
+      "photo": "photo-1454165804606-c3d57bc86b40",
+      "bytes": 41298,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "then-tamilnadu-suthula-payanam": {
+      "path": "/blog/then-tamilnadu-suthula-payanam.webp",
+      "alt": "Blue southern coastline for a purpose-first Tamil Nadu circuit",
+      "photo": "photo-1507525428034-b723cf961d3e",
+      "bytes": 49314,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "thiruvananthapuram-kerala-border-travel": {
+      "path": "/blog/thiruvananthapuram-kerala-border-travel.webp",
+      "alt": "Palm-country hills toward the Kerala border",
+      "photo": "photo-1500530855697-b586d89ba3ee",
+      "bytes": 137242,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "thoothukudi-coastal-travel": {
+      "path": "/blog/thoothukudi-coastal-travel.webp",
+      "alt": "Open sea and sky for Thoothukudi coastal travel",
+      "photo": "photo-1470071459604-3b5ec3a7fe05",
+      "bytes": 77250,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "tirunelveli-travel-hub": {
+      "path": "/blog/tirunelveli-travel-hub.webp",
+      "alt": "District hub town roads for Tirunelveli as a travel base",
+      "photo": "photo-1477959858617-67f85cf4f1df",
+      "bytes": 141996,
+      "q": 70,
+      "source": "unsplash"
+    },
+    "visiting-srivilliputtur-travel-guide": {
+      "path": "/blog/visiting-srivilliputtur-travel-guide.webp",
+      "alt": "Green landscape welcome for visiting Srivilliputtur",
+      "photo": "photo-1493246507139-91e8fad9978e",
+      "bytes": 68278,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "what-to-ask-before-booking-taxi": {
+      "path": "/blog/what-to-ask-before-booking-taxi.webp",
+      "alt": "Laptop and notes for questions before booking a taxi",
+      "photo": "photo-1486312338219-ce68d2c6f44d",
+      "bytes": 29312,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "andal-temple-visit-tips": {
+      "path": "/blog/andal-temple-visit-tips.webp",
+      "alt": "Calm blue waterscape pause before an Andal Temple visit",
+      "photo": "photo-1439066615861-d1af74d74000",
+      "bytes": 57122,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "kodaikanal-weekend-from-south-tn": {
+      "path": "/blog/kodaikanal-weekend-from-south-tn.webp",
+      "alt": "Winding misty mountain road for a Kodaikanal weekend",
+      "photo": "photo-1501785888041-af3ef285b470",
+      "bytes": 142030,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "luggage-and-sedan-capacity-tips": {
+      "path": "/blog/luggage-and-sedan-capacity-tips.webp",
+      "alt": "Stacked suitcases for sedan luggage capacity planning",
+      "photo": "photo-1565026057447-bc90a3dceb87",
+      "bytes": 13914,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "mazhaikalam-payanam-kurippu": {
+      "path": "/blog/mazhaikalam-payanam-kurippu.webp",
+      "alt": "Rain clouds over a wet road for monsoon travel notes",
+      "photo": "photo-1504608524841-42fe6f032b4b",
+      "bytes": 33542,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "rameswaram-pilgrimage-road-travel": {
+      "path": "/blog/rameswaram-pilgrimage-road-travel.webp",
+      "alt": "Mountain lake causeway mood for Rameswaram pilgrimage pacing",
+      "photo": "photo-1470770841072-f978cf4d019e",
+      "bytes": 100056,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "rameswaram-yatirai-vazhi": {
+      "path": "/blog/rameswaram-yatirai-vazhi.webp",
+      "alt": "Turquoise sea and beach for a Rameswaram yatra road",
+      "photo": "photo-1519046904884-53103b34b206",
+      "bytes": 84914,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "srivilliputtur-day-trip-ideas": {
+      "path": "/blog/srivilliputtur-day-trip-ideas.webp",
+      "alt": "Sunlit trees and open path for Srivilliputtur day-trip ideas",
+      "photo": "photo-1441974231531-c6227db76b6e",
+      "bytes": 149458,
+      "q": 70,
+      "source": "unsplash"
+    },
+    "temple-pilgrimage-family-travel": {
+      "path": "/blog/temple-pilgrimage-family-travel.webp",
+      "alt": "Sunlit countryside path toward a family temple pilgrimage",
+      "photo": "photo-1418065460487-3e41a6c84dc5",
+      "bytes": 74260,
+      "q": 78,
+      "source": "unsplash"
+    },
+    "vimana-nilaiyam-pickup-kurippu": {
+      "path": "/blog/vimana-nilaiyam-pickup-kurippu.webp",
+      "alt": "Airport terminal approach light for Madurai airport pickup notes",
+      "photo": "photo-1578575437130-527eed3abbec",
+      "bytes": 91888,
+      "q": 78,
+      "source": "unsplash"
+    }
+  }
+}

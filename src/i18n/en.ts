@@ -45,7 +45,7 @@ export const en: Dictionary = {
     titleBefore: 'Travel from Srivilliputtur to',
     titleAccent: 'anywhere in India',
     lede:
-      'Sri Arumuga Travels — taxi and sedan journeys from Srivilliputtur (Srivilliputhur) for families, pilgrims, and everyday travellers. Outstation cab, Madurai airport links, and temple trips — planned by phone or WhatsApp.',
+      'Tamil Nadu cab service from one desk in Srivilliputtur (Srivilliputhur) — sedan outstation taxi across the state and beyond. Madurai airport links, temple trips, and family roads — planned by phone or WhatsApp.',
     orEnquiry: 'Or send an enquiry →',
     explore: 'Explore',
     sceneAlt:
@@ -53,9 +53,9 @@ export const en: Dictionary = {
   },
   services: {
     eyebrow: 'What we offer',
-    title: 'Taxi service and outstation cab from Srivilliputtur.',
+    title: 'Tamil Nadu taxi and outstation cab from Srivilliputtur.',
     lede:
-      'Temple mornings, Madurai airport evenings, Rajapalayam hops, and family visits far from home — we plan the trip with you first, then drive it carefully.',
+      'A Tamil Nadu cab service based in Srivilliputtur — temple mornings, Madurai airport evenings, Rajapalayam hops, and outstation rides to Madurai, Chennai, Coimbatore, Rameswaram, Kanyakumari, Kodaikanal, Tirunelveli, Courtallam, and further. We plan with you first, then drive carefully.',
     ctaHint: 'Not sure which fits? Tell us your plan — we will suggest a sensible way to travel.',
     cta: 'Ask about your trip',
     items: [
@@ -63,7 +63,7 @@ export const en: Dictionary = {
         id: 'outstation',
         title: 'Outstation journeys',
         description:
-          'From Srivilliputtur to cities, towns, and family homes across India — timed around your day, not a timetable.',
+          'Tamil Nadu outstation cab from Srivilliputtur to cities, towns, and family homes across the state and India — timed around your day, not a timetable.',
       },
       {
         id: 'airport',
@@ -90,11 +90,11 @@ export const en: Dictionary = {
     title: 'Familiar roads — and any place you need to reach.',
     lede:
       'These come up often. Your destination does not have to be on this list. If the road can take us there from Srivilliputtur, we will talk through timing and fare.',
-    tnHighlightEyebrow: 'All Around Tamil Nadu & Beyond',
-    tnHighlightTitle: 'Any Town, Temple, or Village Across Tamil Nadu',
+    tnHighlightEyebrow: 'Tamil Nadu cab service · one desk',
+    tnHighlightTitle: 'Outstation taxi across Tamil Nadu from Srivilliputtur',
     tnHighlightBody:
-      'Journeys start from our desk in Srivilliputtur (Srivilliputhur). Madurai, Chennai, Coimbatore, a coastal town, or a village visit — name the place. We match a car and confirm the fare by call or WhatsApp before you travel.',
-    tnHighlightCta: 'Plan Any Route in Tamil Nadu',
+      'Searching for a Tamil Nadu taxi or Tamil Nadu cab service? We are based at one desk in Srivilliputtur (Srivilliputhur) — we do not invent branch offices in every city. From here we drive outstation sedans to Madurai, Chennai, Coimbatore, Rameswaram, Kanyakumari, Kodaikanal, Tirunelveli, Courtallam, Thoothukudi, and further across India. Name the place; we confirm the car and fare by call or WhatsApp before you travel.',
+    tnHighlightCta: 'Plan a Tamil Nadu cab route',
     quickDropdownLabel: 'Quick Route Selector',
     quickDropdownPlaceholder: 'Select a destination (Madurai, Chennai, Kodaikanal...)',
     showAll: 'View all destinations (12+ locations)',
@@ -246,12 +246,12 @@ export const en: Dictionary = {
       {
         question: 'Where is Sri Arumuga Travels based?',
         answer:
-          'We are based in Srivilliputtur, Tamil Nadu. Journeys usually start here and can go across India by road.',
+          'We are based at one desk in Srivilliputtur, Tamil Nadu — not a branch in every city. Journeys usually start here and can go across Tamil Nadu and India by road.',
       },
       {
         question: 'Do you drive outstation across India?',
         answer:
-          'Yes. We plan outstation sedan trips from Srivilliputtur to cities, towns, airports, temples, and family destinations across India. Share pickup, destination, date, and passengers — we confirm timing and fare.',
+          'Yes. Sri Arumuga Travels is a Tamil Nadu cab service based in Srivilliputtur — outstation sedan trips to cities, towns, airports, temples, and family destinations across Tamil Nadu and India. Share pickup, destination, date, and passengers — we confirm timing and fare.',
       },
       {
         question: 'What kind of vehicles do you offer?',

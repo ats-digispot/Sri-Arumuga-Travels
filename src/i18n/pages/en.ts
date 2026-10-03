@@ -21,21 +21,21 @@ export const pagesEn: PagesCopy = {
   },
   servicesHub: {
     eyebrow: 'What we offer',
-    title: 'Taxi service & car hire from Srivilliputtur',
-    lede: 'Taxi and sedan car hire from Srivilliputtur (Srivilliputhur) — temple mornings, Madurai airport evenings, local day trips, and outstation family visits. We plan with you first, then drive carefully.',
+    title: 'Tamil Nadu taxi service & car hire from Srivilliputtur',
+    lede: 'Tamil Nadu cab service from one desk in Srivilliputtur (Srivilliputhur) — temple mornings, Madurai airport evenings, local day trips, and outstation sedan rides across Tamil Nadu and India. We plan with you first, then drive carefully.',
     ctaHint: 'Not sure which fits? Tell us your plan — we will suggest a sensible way to travel.',
   },
   locationsHub: {
     eyebrow: 'Where we go',
-    title: 'Cab routes from Srivilliputtur across Tamil Nadu',
-    lede: 'These routes come up often from our Srivilliputtur (Srivilliputhur) base — Madurai airport, Chennai one-way, Rameswaram, Kanyakumari, Courtallam, Tirunelveli, Thoothukudi, and more. Your destination does not have to be on this list.',
-    homeBaseCard: 'Our travel desk starts in Srivilliputtur (Srivilliputhur), Tamil Nadu — near Rajapalayam.',
+    title: 'Tamil Nadu cab routes from our Srivilliputtur desk',
+    lede: 'Looking for a Tamil Nadu taxi? These routes come up often from our single Srivilliputtur (Srivilliputhur) desk — Madurai airport, Chennai one-way, Coimbatore, Rameswaram, Kanyakumari, Kodaikanal, Courtallam, Tirunelveli, Thoothukudi, and more. We do not keep offices in every city; we drive outstation from here. Your destination does not have to be on this list.',
+    homeBaseCard: 'One travel desk: Srivilliputtur (Srivilliputhur), Tamil Nadu 626125 — near Rajapalayam. Outstation cabs across Tamil Nadu from here.',
   },
   services: {
     'outstation-cab': {
-      lede: 'From Srivilliputtur (Srivilliputhur) and nearby Rajapalayam to cities, towns, and family homes across Tamil Nadu and India — timed around your day, not a timetable.',
+      lede: 'Tamil Nadu outstation cab from Srivilliputtur (Srivilliputhur) and nearby Rajapalayam — cities, towns, and family homes across the state and India, timed around your day.',
       body: [
-        'Outstation cab booking covers calm sedan rides beyond the local belt — Chennai one-way, Madurai, Coimbatore, Tirunelveli, Rameswaram, Kanyakumari, Courtallam, Thoothukudi, Kodaikanal, and longer drives across India when dates allow.',
+        'This is a Tamil Nadu cab service with one desk in Srivilliputtur, not a network of city branches. Outstation sedan rides cover Chennai one-way, Madurai, Coimbatore, Tirunelveli, Rameswaram, Kanyakumari, Courtallam, Thoothukudi, Kodaikanal, and longer drives across India when dates allow.',
         'Share pickup (Srivilliputtur, Rajapalayam, or nearby), destination, date, and how many people are travelling. The cars we show are a Toyota Etios GD (TN 84 F 6278) and, on the banner, Toyota Innova, Hyundai Verna, and Hyundai Grand i10. We confirm which one fits, plus timing and fare, by call or WhatsApp. We do not run a tempo or a bus.',
       ],
       bullets: [
@@ -46,7 +46,7 @@ export const pagesEn: PagesCopy = {
       faqs: [
         {
           q: 'Do you drive outstation across India?',
-          a: 'Yes. We plan outstation sedan trips from Srivilliputtur to cities, towns, airports, temples, and family destinations across India. Share pickup, destination, date, and passengers — we confirm timing and fare.',
+          a: 'Yes. We plan Tamil Nadu outstation cab trips from our Srivilliputtur desk to cities, towns, airports, temples, and family destinations across Tamil Nadu and India. Share pickup, destination, date, and passengers — we confirm timing and fare.',
         },
         {
           q: 'How do I book?',
@@ -123,7 +123,7 @@ export const pagesEn: PagesCopy = {
   },
   locations: {
     srivilliputtur: {
-      lede: 'This is the home desk — Srivilliputtur, also written Srivilliputhur. We drive from here across Tamil Nadu and India. We do not keep an office in every city on this site.',
+      lede: 'This is the home desk for our Tamil Nadu cab service — Srivilliputtur, also written Srivilliputhur. We drive from here across Tamil Nadu and India. We do not keep an office in every city on this site.',
       body: [
         'Find us at GJ7P+3QH, Keelapatti Street, Mariamman Kovil Street, Srivilliputtur, Tamil Nadu 626125. Call +91 98942 20028 or +91 86676 69560, WhatsApp the first number, or use the enquiry form. Email sriviarumugatravels@gmail.com.',
         'People book local hops, Andal Temple visits, Madurai airport runs, and longer roads. The cars shown are a Toyota Etios GD (TN 84 F 6278) and banner labels for Toyota Innova, Hyundai Verna, and Hyundai Grand i10, with seat counts printed on the banner. Say who is travelling and we confirm the car and the fare. Nothing is priced on this page.',

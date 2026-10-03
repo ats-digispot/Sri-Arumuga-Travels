@@ -20,8 +20,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-28",
   "updatedAt": "2026-09-28",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Sedan travel for airport transfers",
+  "heroImage": "/blog/airport-pickup-tips-madurai.webp",
+  "heroAlt": "Aircraft wing above clouds at sunrise for Madurai airport pickup tips",
   "relatedSlugs": [
     "madurai-from-srivilliputtur-travel-tips",
     "how-to-book-outstation-cab-tamil-nadu",
@@ -49,8 +49,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-10-01",
   "updatedAt": "2026-10-01",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/andal-kovil-sandharshana-kurippu.webp",
+  "heroAlt": "Colourful South Indian temple gopuram for Andal Kovil visit notes",
   "relatedSlugs": [
     "srivilliputtur-payanam-vazhikatti",
     "kudumbam-payanam-yorchanai",
@@ -78,8 +78,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-10-01",
   "updatedAt": "2026-10-01",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Temple visit planning in Srivilliputtur",
+  "heroImage": "/blog/andal-temple-visit-tips.webp",
+  "heroAlt": "Calm blue waterscape pause before an Andal Temple visit",
   "relatedSlugs": [
     "visiting-srivilliputtur-travel-guide",
     "temple-pilgrimage-family-travel",
@@ -107,8 +107,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-24",
   "updatedAt": "2026-09-24",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Intercity road trip preparation",
+  "heroImage": "/blog/bengaluru-road-trip-prep.webp",
+  "heroAlt": "Multi-lane highway toward a city for Bengaluru road-trip prep",
   "relatedSlugs": [
     "chennai-outstation-travel-checklist",
     "overnight-vs-day-travel-outstation",
@@ -136,8 +136,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-25",
   "updatedAt": "2026-09-25",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Long-distance road travel checklist",
+  "heroImage": "/blog/chennai-outstation-travel-checklist.webp",
+  "heroAlt": "Busy coastal city road for a Chennai outstation checklist",
   "relatedSlugs": [
     "overnight-vs-day-travel-outstation",
     "how-to-book-outstation-cab-tamil-nadu",
@@ -164,8 +164,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-03",
   "updatedAt": "2026-09-03",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/choosing-pickup-time-for-long-drives.webp",
+  "heroAlt": "Open road at dawn when choosing pickup time for long drives",
   "relatedSlugs": [
     "overnight-vs-day-travel-outstation",
     "safe-night-travel-practices-tn",
@@ -191,8 +191,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-23",
   "updatedAt": "2026-09-23",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "West Tamil Nadu road travel",
+  "heroImage": "/blog/coimbatore-west-tn-travel.webp",
+  "heroAlt": "Green mountain foothills on the road toward Coimbatore",
   "relatedSlugs": [
     "tamil-nadu-hill-station-basics",
     "how-to-book-outstation-cab-tamil-nadu",
@@ -220,8 +220,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-07",
   "updatedAt": "2026-09-07",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/courtallam-tenkasi-travel-notes.webp",
+  "heroAlt": "Forest waterfall for Courtallam and Tenkasi travel notes",
   "relatedSlugs": [
     "monsoon-travel-tips-tamil-nadu",
     "tirunelveli-travel-hub",
@@ -248,8 +248,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-11",
   "updatedAt": "2026-09-11",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/family-travel-with-elders-tn.webp",
+  "heroAlt": "Calm lakeside road suited to family travel with elders",
   "relatedSlugs": [
     "temple-pilgrimage-family-travel",
     "packing-for-south-india-road-travel",
@@ -276,8 +276,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-10",
   "updatedAt": "2026-09-10",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/festival-season-travel-planning-tn.webp",
+  "heroAlt": "Festive evening lights for Tamil Nadu festival-season travel",
   "relatedSlugs": [
     "andal-temple-visit-tips",
     "how-to-book-outstation-cab-tamil-nadu",
@@ -304,8 +304,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-21",
   "updatedAt": "2026-09-21",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Outstation sedan booking conversation",
+  "heroImage": "/blog/how-to-book-outstation-cab-tamil-nadu.webp",
+  "heroAlt": "Dark sedan on wet asphalt ready for outstation cab booking",
   "relatedSlugs": [
     "what-to-ask-before-booking-taxi",
     "local-taxi-vs-outstation-cab",
@@ -333,8 +333,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-21",
   "updatedAt": "2026-09-21",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/iravu-payanam-pathukappu.webp",
+  "heroAlt": "Night highway with soft headlights for safer night travel",
   "relatedSlugs": [
     "safe-night-travel-practices-tn",
     "overnight-vs-day-travel-outstation"
@@ -360,8 +360,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-04",
   "updatedAt": "2026-09-04",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/kanyakumari-from-southern-tn.webp",
+  "heroAlt": "Rocky southern coast at sunset toward Kanyakumari",
   "relatedSlugs": [
     "tirunelveli-travel-hub",
     "southern-tamil-nadu-road-trip-planner",
@@ -388,8 +388,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-26",
   "updatedAt": "2026-09-26",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/kodaikanal-vaiyara-payanam.webp",
+  "heroAlt": "Mountain lake and mist for a Kodaikanal weekend journey",
   "relatedSlugs": [
     "kodaikanal-weekend-from-south-tn",
     "tamil-nadu-hill-station-basics"
@@ -416,8 +416,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-26",
   "updatedAt": "2026-09-26",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Hill road travel planning in Tamil Nadu",
+  "heroImage": "/blog/kodaikanal-weekend-from-south-tn.webp",
+  "heroAlt": "Winding misty mountain road for a Kodaikanal weekend",
   "relatedSlugs": [
     "tamil-nadu-hill-station-basics",
     "packing-for-south-india-road-travel",
@@ -444,8 +444,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-27",
   "updatedAt": "2026-09-27",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/kudumbam-payanam-yorchanai.webp",
+  "heroAlt": "Travel bags and maps for family journey planning",
   "relatedSlugs": [
     "family-travel-with-elders-tn",
     "temple-pilgrimage-family-travel",
@@ -471,8 +471,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-19",
   "updatedAt": "2026-09-19",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Local and outstation sedan travel patterns",
+  "heroImage": "/blog/local-taxi-vs-outstation-cab.webp",
+  "heroAlt": "City street vs longer highway mood for local taxi vs outstation cab",
   "relatedSlugs": [
     "how-to-book-outstation-cab-tamil-nadu",
     "srivilliputtur-day-trip-ideas",
@@ -499,8 +499,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-13",
   "updatedAt": "2026-09-13",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/luggage-and-sedan-capacity-tips.webp",
+  "heroAlt": "Stacked suitcases for sedan luggage capacity planning",
   "relatedSlugs": [
     "packing-for-south-india-road-travel",
     "how-to-book-outstation-cab-tamil-nadu"
@@ -527,8 +527,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-29",
   "updatedAt": "2026-09-29",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Road travel between southern Tamil Nadu towns",
+  "heroImage": "/blog/madurai-from-srivilliputtur-travel-tips.webp",
+  "heroAlt": "Temple-city gopuram at dusk between Srivilliputtur and Madurai",
   "relatedSlugs": [
     "airport-pickup-tips-madurai",
     "visiting-srivilliputtur-travel-guide",
@@ -557,8 +557,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-30",
   "updatedAt": "2026-09-30",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/madurai-payanam-yorchanai.webp",
+  "heroAlt": "Temple-town street on a Madurai journey",
   "relatedSlugs": [
     "airport-pickup-tips-madurai",
     "madurai-from-srivilliputtur-travel-tips",
@@ -585,8 +585,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/mazhaikalam-payanam-kurippu.webp",
+  "heroAlt": "Rain clouds over a wet road for monsoon travel notes",
   "relatedSlugs": [
     "monsoon-travel-tips-tamil-nadu",
     "courtallam-tenkasi-travel-notes"
@@ -612,8 +612,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-12",
   "updatedAt": "2026-09-12",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/monsoon-travel-tips-tamil-nadu.webp",
+  "heroAlt": "Heavy monsoon clouds over green countryside for TN monsoon tips",
   "relatedSlugs": [
     "courtallam-tenkasi-travel-notes",
     "tamil-nadu-hill-station-basics",
@@ -640,8 +640,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-28",
   "updatedAt": "2026-09-28",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/outstation-cab-ennave-theriyumo.webp",
+  "heroAlt": "Clean sedan ready for an outstation departure",
   "relatedSlugs": [
     "how-to-book-outstation-cab-tamil-nadu",
     "taxi-munbu-ketka-vendiyavai"
@@ -668,8 +668,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-16",
   "updatedAt": "2026-09-16",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/overnight-vs-day-travel-outstation.webp",
+  "heroAlt": "Starry night sky above a quiet intercity highway",
   "relatedSlugs": [
     "safe-night-travel-practices-tn",
     "chennai-outstation-travel-checklist",
@@ -696,8 +696,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-14",
   "updatedAt": "2026-09-14",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/packing-for-south-india-road-travel.webp",
+  "heroAlt": "Open suitcase packed for South India road travel",
   "relatedSlugs": [
     "luggage-and-sedan-capacity-tips",
     "monsoon-travel-tips-tamil-nadu",
@@ -723,8 +723,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-17",
   "updatedAt": "2026-09-17",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/planning-multi-stop-temple-circuit.webp",
+  "heroAlt": "Temple spires across a multi-stop pilgrimage horizon",
   "relatedSlugs": [
     "temple-pilgrimage-family-travel",
     "andal-temple-visit-tips",
@@ -751,8 +751,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-27",
   "updatedAt": "2026-09-27",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Pilgrimage road travel in Tamil Nadu",
+  "heroImage": "/blog/rameswaram-pilgrimage-road-travel.webp",
+  "heroAlt": "Mountain lake causeway mood for Rameswaram pilgrimage pacing",
   "relatedSlugs": [
     "temple-pilgrimage-family-travel",
     "planning-multi-stop-temple-circuit",
@@ -781,8 +781,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-29",
   "updatedAt": "2026-09-29",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/rameswaram-yatirai-vazhi.webp",
+  "heroAlt": "Turquoise sea and beach for a Rameswaram yatra road",
   "relatedSlugs": [
     "rameswaram-pilgrimage-road-travel",
     "kudumbam-payanam-yorchanai"
@@ -808,8 +808,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-15",
   "updatedAt": "2026-09-15",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/safe-night-travel-practices-tn.webp",
+  "heroAlt": "Mountain night sky for careful overnight road practices",
   "relatedSlugs": [
     "overnight-vs-day-travel-outstation",
     "what-to-ask-before-booking-taxi"
@@ -834,8 +834,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-20",
   "updatedAt": "2026-09-20",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/soft-cta-how-to-enquire-sat.webp",
+  "heroAlt": "Phone and notebook ready for a calm travel enquiry",
   "relatedSlugs": [
     "how-to-book-outstation-cab-tamil-nadu",
     "what-to-ask-before-booking-taxi"
@@ -862,8 +862,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-08",
   "updatedAt": "2026-09-08",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/southern-tamil-nadu-road-trip-planner.webp",
+  "heroAlt": "Sunlit countryside road for a southern Tamil Nadu trip planner",
   "relatedSlugs": [
     "courtallam-tenkasi-travel-notes",
     "kanyakumari-from-southern-tn",
@@ -892,8 +892,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-30",
   "updatedAt": "2026-09-30",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Day road travel from a southern Tamil Nadu town",
+  "heroImage": "/blog/srivilliputtur-day-trip-ideas.webp",
+  "heroAlt": "Sunlit trees and open path for Srivilliputtur day-trip ideas",
   "relatedSlugs": [
     "visiting-srivilliputtur-travel-guide",
     "madurai-from-srivilliputtur-travel-tips",
@@ -921,8 +921,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "ஸ்ரீவில்லிபுத்தூர் பயணம்",
+  "heroImage": "/blog/srivilliputtur-payanam-vazhikatti.webp",
+  "heroAlt": "Heritage temple tower guiding a Srivilliputtur visit",
   "relatedSlugs": [
     "andal-kovil-sandharshana-kurippu",
     "visiting-srivilliputtur-travel-guide",
@@ -951,8 +951,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-09",
   "updatedAt": "2026-09-09",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/tamil-nadu-hill-station-basics.webp",
+  "heroAlt": "Misty layered hills for Tamil Nadu hill-station basics",
   "relatedSlugs": [
     "kodaikanal-weekend-from-south-tn",
     "monsoon-travel-tips-tamil-nadu",
@@ -978,8 +978,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-23",
   "updatedAt": "2026-09-23",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/taxi-munbu-ketka-vendiyavai.webp",
+  "heroAlt": "Checklist notebook before asking taxi booking questions",
   "relatedSlugs": [
     "what-to-ask-before-booking-taxi",
     "outstation-cab-ennave-theriyumo"
@@ -1005,8 +1005,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-18",
   "updatedAt": "2026-09-18",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Family pilgrimage travel in Tamil Nadu",
+  "heroImage": "/blog/temple-pilgrimage-family-travel.webp",
+  "heroAlt": "Sunlit countryside path toward a family temple pilgrimage",
   "relatedSlugs": [
     "andal-temple-visit-tips",
     "planning-multi-stop-temple-circuit",
@@ -1033,8 +1033,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-24",
   "updatedAt": "2026-09-24",
-  "heroImage": "/hero-highway.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/then-tamilnadu-suthula-payanam.webp",
+  "heroAlt": "Blue southern coastline for a purpose-first Tamil Nadu circuit",
   "relatedSlugs": [
     "southern-tamil-nadu-road-trip-planner",
     "tirunelveli-travel-hub",
@@ -1062,8 +1062,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-22",
   "updatedAt": "2026-09-22",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Travel toward the Kerala coast",
+  "heroImage": "/blog/thiruvananthapuram-kerala-border-travel.webp",
+  "heroAlt": "Palm-country hills toward the Kerala border",
   "relatedSlugs": [
     "kanyakumari-from-southern-tn",
     "how-to-book-outstation-cab-tamil-nadu",
@@ -1089,8 +1089,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-05",
   "updatedAt": "2026-09-05",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/thoothukudi-coastal-travel.webp",
+  "heroAlt": "Open sea and sky for Thoothukudi coastal travel",
   "relatedSlugs": [
     "tirunelveli-travel-hub",
     "kanyakumari-from-southern-tn",
@@ -1116,8 +1116,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-06",
   "updatedAt": "2026-09-06",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/tirunelveli-travel-hub.webp",
+  "heroAlt": "District hub town roads for Tirunelveli as a travel base",
   "relatedSlugs": [
     "courtallam-tenkasi-travel-notes",
     "thoothukudi-coastal-travel",
@@ -1144,8 +1144,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-25",
   "updatedAt": "2026-09-25",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Southern Tamil Nadu travel",
+  "heroImage": "/blog/vimana-nilaiyam-pickup-kurippu.webp",
+  "heroAlt": "Airport terminal approach light for Madurai airport pickup notes",
   "relatedSlugs": [
     "airport-pickup-tips-madurai",
     "madurai-payanam-yorchanai"
@@ -1172,8 +1172,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-10-02",
   "updatedAt": "2026-10-02",
-  "heroImage": "/hero-scene.webp",
-  "heroAlt": "Temple town travel in southern Tamil Nadu",
+  "heroImage": "/blog/visiting-srivilliputtur-travel-guide.webp",
+  "heroAlt": "Green landscape welcome for visiting Srivilliputtur",
   "relatedSlugs": [
     "andal-temple-visit-tips",
     "srivilliputtur-day-trip-ideas",
@@ -1201,8 +1201,8 @@ export const ALL_POST_METAS: BlogPostMeta[] = [
   ],
   "publishedAt": "2026-09-20",
   "updatedAt": "2026-09-20",
-  "heroImage": "/fleet-scene.webp",
-  "heroAlt": "Traveler checklist for taxi booking",
+  "heroImage": "/blog/what-to-ask-before-booking-taxi.webp",
+  "heroAlt": "Laptop and notes for questions before booking a taxi",
   "relatedSlugs": [
     "how-to-book-outstation-cab-tamil-nadu",
     "local-taxi-vs-outstation-cab",
