@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["sedan", "packing", "family"],
   publishedAt: "2026-09-13",
   updatedAt: "2026-09-13",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/luggage-and-sedan-capacity-tips.webp",
+  heroAlt: "Stacked suitcases for sedan luggage capacity planning",
   relatedSlugs: ["packing-for-south-india-road-travel", "how-to-book-outstation-cab-tamil-nadu"],
   relatedPaths: ["/services/outstation-cab", "/services/local-taxi"],
   body: [

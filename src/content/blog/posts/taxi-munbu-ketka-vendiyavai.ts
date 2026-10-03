@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["checklist", "sedan", "family"],
   publishedAt: "2026-09-23",
   updatedAt: "2026-09-23",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/taxi-munbu-ketka-vendiyavai.webp",
+  heroAlt: "Checklist notebook before asking taxi booking questions",
   relatedSlugs: ["what-to-ask-before-booking-taxi", "outstation-cab-ennave-theriyumo"],
   relatedPaths: ["/contact", "/services/local-taxi"],
   body: [

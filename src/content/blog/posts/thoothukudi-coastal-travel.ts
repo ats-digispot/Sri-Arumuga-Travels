@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["thoothukudi", "coast", "checklist"],
   publishedAt: "2026-09-05",
   updatedAt: "2026-09-05",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/thoothukudi-coastal-travel.webp",
+  heroAlt: "Open sea and sky for Thoothukudi coastal travel",
   relatedSlugs: ["tirunelveli-travel-hub", "kanyakumari-from-southern-tn", "southern-tamil-nadu-road-trip-planner"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

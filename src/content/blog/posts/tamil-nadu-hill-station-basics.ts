@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["hills", "kodaikanal", "packing", "family"],
   publishedAt: "2026-09-09",
   updatedAt: "2026-09-09",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/tamil-nadu-hill-station-basics.webp",
+  heroAlt: "Misty layered hills for Tamil Nadu hill-station basics",
   relatedSlugs: ["kodaikanal-weekend-from-south-tn", "monsoon-travel-tips-tamil-nadu", "packing-for-south-india-road-travel"],
   relatedPaths: ["/locations/kodaikanal"],
   body: [

@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["rameswaram", "pilgrimage", "family", "temple"],
   publishedAt: "2026-09-29",
   updatedAt: "2026-09-29",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/rameswaram-yatirai-vazhi.webp",
+  heroAlt: "Turquoise sea and beach for a Rameswaram yatra road",
   relatedSlugs: ["rameswaram-pilgrimage-road-travel", "kudumbam-payanam-yorchanai"],
   relatedPaths: ["/locations/rameswaram", "/services/temple-pilgrimage"],
   body: [

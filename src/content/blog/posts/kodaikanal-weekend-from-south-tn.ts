@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["kodaikanal", "hills", "family", "packing"],
   publishedAt: "2026-09-26",
   updatedAt: "2026-09-26",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Hill road travel planning in Tamil Nadu",
+  heroImage: "/blog/kodaikanal-weekend-from-south-tn.webp",
+  heroAlt: "Winding misty mountain road for a Kodaikanal weekend",
   relatedSlugs: ["tamil-nadu-hill-station-basics", "packing-for-south-india-road-travel", "overnight-vs-day-travel-outstation"],
   relatedPaths: ["/locations/kodaikanal", "/services/outstation-cab"],
   body: [

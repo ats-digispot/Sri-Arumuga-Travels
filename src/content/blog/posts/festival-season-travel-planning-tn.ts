@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["festival", "temple", "checklist"],
   publishedAt: "2026-09-10",
   updatedAt: "2026-09-10",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/festival-season-travel-planning-tn.webp",
+  heroAlt: "Festive evening lights for Tamil Nadu festival-season travel",
   relatedSlugs: ["andal-temple-visit-tips", "how-to-book-outstation-cab-tamil-nadu", "temple-pilgrimage-family-travel"],
   relatedPaths: ["/services/temple-pilgrimage", "/contact"],
   body: [

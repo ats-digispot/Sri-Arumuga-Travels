@@ -98,6 +98,8 @@ function resolveBlogSeo(pathname: string): {
       path: `/blog/${post.slug}`,
       ogType: 'article',
       image: absoluteUrl(post.heroImage),
+      imageW: 1200,
+      imageH: 675,
     };
   }
   return null;

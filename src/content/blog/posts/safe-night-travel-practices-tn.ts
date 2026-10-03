@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["night-travel", "checklist", "family"],
   publishedAt: "2026-09-15",
   updatedAt: "2026-09-15",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/safe-night-travel-practices-tn.webp",
+  heroAlt: "Mountain night sky for careful overnight road practices",
   relatedSlugs: ["overnight-vs-day-travel-outstation", "what-to-ask-before-booking-taxi"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

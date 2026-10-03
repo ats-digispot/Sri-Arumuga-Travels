@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["sedan", "checklist"],
   publishedAt: "2026-09-19",
   updatedAt: "2026-09-19",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Local and outstation sedan travel patterns",
+  heroImage: "/blog/local-taxi-vs-outstation-cab.webp",
+  heroAlt: "City street vs longer highway mood for local taxi vs outstation cab",
   relatedSlugs: ["how-to-book-outstation-cab-tamil-nadu", "srivilliputtur-day-trip-ideas", "overnight-vs-day-travel-outstation"],
   relatedPaths: ["/services/local-taxi", "/services/outstation-cab"],
   body: [

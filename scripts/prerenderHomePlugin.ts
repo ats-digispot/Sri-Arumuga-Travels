@@ -26,7 +26,8 @@ function applyMeta(
   siteUrl: string,
   title: string,
   description: string,
-  pagePath: string
+  pagePath: string,
+  image?: { path: string; alt: string; width?: number; height?: number }
 ): string {
   const pageUrl = pagePath === '/' ? `${siteUrl}/` : `${siteUrl}${pagePath}`;
   const esc = (v: string) =>
@@ -61,6 +62,31 @@ function applyMeta(
     /<meta\s+name=["']twitter:description["']\s+content=["'][\s\S]*?["']\s*\/?>/i,
     `<meta name="twitter:description" content="${esc(description)}" />`
   );
+  if (image?.path) {
+    const abs = image.path.startsWith('http') ? image.path : `${siteUrl}${image.path}`;
+    const w = image.width ?? 1200;
+    const h = image.height ?? 675;
+    out = out.replace(
+      /<meta\s+property=["']og:image["']\s+content=["'][^"']*["']\s*\/?>/i,
+      `<meta property="og:image" content="${esc(abs)}" />`
+    );
+    out = out.replace(
+      /<meta\s+property=["']og:image:width["']\s+content=["'][^"']*["']\s*\/?>/i,
+      `<meta property="og:image:width" content="${w}" />`
+    );
+    out = out.replace(
+      /<meta\s+property=["']og:image:height["']\s+content=["'][^"']*["']\s*\/?>/i,
+      `<meta property="og:image:height" content="${h}" />`
+    );
+    out = out.replace(
+      /<meta\s+property=["']og:image:alt["']\s+content=["'][\s\S]*?["']\s*\/?>/i,
+      `<meta property="og:image:alt" content="${esc(image.alt)}" />`
+    );
+    out = out.replace(
+      /<meta\s+name=["']twitter:image["']\s+content=["'][^"']*["']\s*\/?>/i,
+      `<meta name="twitter:image" content="${esc(abs)}" />`
+    );
+  }
   if (!/name=["']robots["']/i.test(out)) {
     out = out.replace('</title>', `</title>\n    <meta name="robots" content="index, follow" />`);
   }
@@ -183,7 +209,13 @@ export function prerenderHomePlugin(): Plugin {
           siteUrl,
           `${post.title} | Sri Arumuga Travels`,
           post.description,
-          `/blog/${post.slug}`
+          `/blog/${post.slug}`,
+          {
+            path: post.heroImage,
+            alt: post.heroAlt,
+            width: 1200,
+            height: 675,
+          }
         );
         html = hoistJsonLd(html);
         // Ensure exact language attribute

@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["night-travel", "sedan", "family"],
   publishedAt: "2026-09-16",
   updatedAt: "2026-09-16",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/overnight-vs-day-travel-outstation.webp",
+  heroAlt: "Starry night sky above a quiet intercity highway",
   relatedSlugs: ["safe-night-travel-practices-tn", "chennai-outstation-travel-checklist", "how-to-book-outstation-cab-tamil-nadu"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

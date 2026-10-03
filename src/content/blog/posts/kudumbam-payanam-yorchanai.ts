@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["family", "temple", "checklist"],
   publishedAt: "2026-09-27",
   updatedAt: "2026-09-27",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/kudumbam-payanam-yorchanai.webp",
+  heroAlt: "Travel bags and maps for family journey planning",
   relatedSlugs: ["family-travel-with-elders-tn", "temple-pilgrimage-family-travel", "andal-kovil-sandharshana-kurippu"],
   relatedPaths: ["/services/temple-pilgrimage", "/services/outstation-cab"],
   body: [

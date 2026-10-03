@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["checklist", "temple", "coast", "hills"],
   publishedAt: "2026-09-24",
   updatedAt: "2026-09-24",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/then-tamilnadu-suthula-payanam.webp",
+  heroAlt: "Blue southern coastline for a purpose-first Tamil Nadu circuit",
   relatedSlugs: ["southern-tamil-nadu-road-trip-planner", "tirunelveli-travel-hub", "courtallam-tenkasi-travel-notes"],
   relatedPaths: ["/locations", "/services/outstation-cab"],
   body: [

@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["madurai", "airport", "srivilliputtur", "temple"],
   publishedAt: "2026-09-30",
   updatedAt: "2026-09-30",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/madurai-payanam-yorchanai.webp",
+  heroAlt: "Temple-town street on a Madurai journey",
   relatedSlugs: ["airport-pickup-tips-madurai", "madurai-from-srivilliputtur-travel-tips", "vimana-nilaiyam-pickup-kurippu"],
   relatedPaths: ["/locations/madurai", "/services/airport-taxi"],
   body: [

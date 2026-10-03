@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["madurai", "airport", "family", "checklist", "sedan"],
   publishedAt: "2026-09-28",
   updatedAt: "2026-09-28",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Sedan travel for airport transfers",
+  heroImage: "/blog/airport-pickup-tips-madurai.webp",
+  heroAlt: "Aircraft wing above clouds at sunrise for Madurai airport pickup tips",
   relatedSlugs: ["madurai-from-srivilliputtur-travel-tips", "how-to-book-outstation-cab-tamil-nadu", "what-to-ask-before-booking-taxi"],
   relatedPaths: ["/services/airport-taxi", "/locations/madurai"],
   body: [

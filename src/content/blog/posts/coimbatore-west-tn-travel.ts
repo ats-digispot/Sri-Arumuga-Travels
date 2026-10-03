@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["coimbatore", "sedan", "checklist"],
   publishedAt: "2026-09-23",
   updatedAt: "2026-09-23",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "West Tamil Nadu road travel",
+  heroImage: "/blog/coimbatore-west-tn-travel.webp",
+  heroAlt: "Green mountain foothills on the road toward Coimbatore",
   relatedSlugs: ["tamil-nadu-hill-station-basics", "how-to-book-outstation-cab-tamil-nadu", "chennai-outstation-travel-checklist"],
   relatedPaths: ["/locations/coimbatore", "/services/outstation-cab"],
   body: [

@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["kerala", "checklist", "sedan", "coast"],
   publishedAt: "2026-09-22",
   updatedAt: "2026-09-22",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Travel toward the Kerala coast",
+  heroImage: "/blog/thiruvananthapuram-kerala-border-travel.webp",
+  heroAlt: "Palm-country hills toward the Kerala border",
   relatedSlugs: ["kanyakumari-from-southern-tn", "how-to-book-outstation-cab-tamil-nadu", "packing-for-south-india-road-travel"],
   relatedPaths: ["/locations/thiruvananthapuram", "/services/outstation-cab"],
   body: [

@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["checklist", "night-travel", "family"],
   publishedAt: "2026-09-03",
   updatedAt: "2026-09-03",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/choosing-pickup-time-for-long-drives.webp",
+  heroAlt: "Open road at dawn when choosing pickup time for long drives",
   relatedSlugs: ["overnight-vs-day-travel-outstation", "safe-night-travel-practices-tn", "how-to-book-outstation-cab-tamil-nadu"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

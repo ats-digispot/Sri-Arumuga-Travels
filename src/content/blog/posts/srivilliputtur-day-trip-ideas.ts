@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["srivilliputtur", "madurai", "checklist", "family"],
   publishedAt: "2026-09-30",
   updatedAt: "2026-09-30",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Day road travel from a southern Tamil Nadu town",
+  heroImage: "/blog/srivilliputtur-day-trip-ideas.webp",
+  heroAlt: "Sunlit trees and open path for Srivilliputtur day-trip ideas",
   relatedSlugs: ["visiting-srivilliputtur-travel-guide", "madurai-from-srivilliputtur-travel-tips", "local-taxi-vs-outstation-cab"],
   relatedPaths: ["/services/local-taxi", "/locations/madurai"],
   body: [

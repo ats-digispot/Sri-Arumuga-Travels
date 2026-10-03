@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["packing", "sedan", "family", "checklist"],
   publishedAt: "2026-09-14",
   updatedAt: "2026-09-14",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/packing-for-south-india-road-travel.webp",
+  heroAlt: "Open suitcase packed for South India road travel",
   relatedSlugs: ["luggage-and-sedan-capacity-tips", "monsoon-travel-tips-tamil-nadu", "family-travel-with-elders-tn"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

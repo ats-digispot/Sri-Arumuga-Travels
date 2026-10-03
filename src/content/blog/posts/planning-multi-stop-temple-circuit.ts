@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["temple", "pilgrimage", "checklist"],
   publishedAt: "2026-09-17",
   updatedAt: "2026-09-17",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/planning-multi-stop-temple-circuit.webp",
+  heroAlt: "Temple spires across a multi-stop pilgrimage horizon",
   relatedSlugs: ["temple-pilgrimage-family-travel", "andal-temple-visit-tips", "rameswaram-pilgrimage-road-travel"],
   relatedPaths: ["/services/temple-pilgrimage"],
   body: [

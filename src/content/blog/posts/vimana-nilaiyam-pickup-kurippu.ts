@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["madurai", "airport", "family", "checklist"],
   publishedAt: "2026-09-25",
   updatedAt: "2026-09-25",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/vimana-nilaiyam-pickup-kurippu.webp",
+  heroAlt: "Airport terminal approach light for Madurai airport pickup notes",
   relatedSlugs: ["airport-pickup-tips-madurai", "madurai-payanam-yorchanai"],
   relatedPaths: ["/services/airport-taxi", "/locations/madurai"],
   body: [

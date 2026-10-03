@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["kanyakumari", "coast", "family", "festival"],
   publishedAt: "2026-09-04",
   updatedAt: "2026-09-04",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/kanyakumari-from-southern-tn.webp",
+  heroAlt: "Rocky southern coast at sunset toward Kanyakumari",
   relatedSlugs: ["tirunelveli-travel-hub", "southern-tamil-nadu-road-trip-planner", "festival-season-travel-planning-tn"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

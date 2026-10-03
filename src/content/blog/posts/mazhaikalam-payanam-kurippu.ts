@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["monsoon", "checklist", "hills"],
   publishedAt: "2026-09-22",
   updatedAt: "2026-09-22",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/mazhaikalam-payanam-kurippu.webp",
+  heroAlt: "Rain clouds over a wet road for monsoon travel notes",
   relatedSlugs: ["monsoon-travel-tips-tamil-nadu", "courtallam-tenkasi-travel-notes"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

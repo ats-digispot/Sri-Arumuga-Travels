@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["monsoon", "checklist", "hills", "coast"],
   publishedAt: "2026-09-12",
   updatedAt: "2026-09-12",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/monsoon-travel-tips-tamil-nadu.webp",
+  heroAlt: "Heavy monsoon clouds over green countryside for TN monsoon tips",
   relatedSlugs: ["courtallam-tenkasi-travel-notes", "tamil-nadu-hill-station-basics", "packing-for-south-india-road-travel"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

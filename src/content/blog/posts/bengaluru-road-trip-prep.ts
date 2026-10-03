@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["bengaluru", "checklist", "sedan", "family"],
   publishedAt: "2026-09-24",
   updatedAt: "2026-09-24",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Intercity road trip preparation",
+  heroImage: "/blog/bengaluru-road-trip-prep.webp",
+  heroAlt: "Multi-lane highway toward a city for Bengaluru road-trip prep",
   relatedSlugs: ["chennai-outstation-travel-checklist", "overnight-vs-day-travel-outstation", "packing-for-south-india-road-travel"],
   relatedPaths: ["/locations/bengaluru", "/services/outstation-cab"],
   body: [

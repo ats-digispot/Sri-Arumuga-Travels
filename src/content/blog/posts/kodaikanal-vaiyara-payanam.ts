@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["kodaikanal", "hills", "family", "packing"],
   publishedAt: "2026-09-26",
   updatedAt: "2026-09-26",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/kodaikanal-vaiyara-payanam.webp",
+  heroAlt: "Mountain lake and mist for a Kodaikanal weekend journey",
   relatedSlugs: ["kodaikanal-weekend-from-south-tn", "tamil-nadu-hill-station-basics"],
   relatedPaths: ["/locations/kodaikanal", "/services/outstation-cab"],
   body: [

@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["temple", "pilgrimage", "family"],
   publishedAt: "2026-09-18",
   updatedAt: "2026-09-18",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Family pilgrimage travel in Tamil Nadu",
+  heroImage: "/blog/temple-pilgrimage-family-travel.webp",
+  heroAlt: "Sunlit countryside path toward a family temple pilgrimage",
   relatedSlugs: ["andal-temple-visit-tips", "planning-multi-stop-temple-circuit", "rameswaram-pilgrimage-road-travel"],
   relatedPaths: ["/services/temple-pilgrimage"],
   body: [

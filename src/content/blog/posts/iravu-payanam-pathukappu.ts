@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["night-travel", "checklist", "family"],
   publishedAt: "2026-09-21",
   updatedAt: "2026-09-21",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/iravu-payanam-pathukappu.webp",
+  heroAlt: "Night highway with soft headlights for safer night travel",
   relatedSlugs: ["safe-night-travel-practices-tn", "overnight-vs-day-travel-outstation"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

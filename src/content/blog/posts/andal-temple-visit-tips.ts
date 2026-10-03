@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["srivilliputtur", "temple", "pilgrimage", "family"],
   publishedAt: "2026-10-01",
   updatedAt: "2026-10-01",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Temple visit planning in Srivilliputtur",
+  heroImage: "/blog/andal-temple-visit-tips.webp",
+  heroAlt: "Calm blue waterscape pause before an Andal Temple visit",
   relatedSlugs: ["visiting-srivilliputtur-travel-guide", "temple-pilgrimage-family-travel", "planning-multi-stop-temple-circuit"],
   relatedPaths: ["/services/temple-pilgrimage", "/locations/srivilliputtur"],
   body: [

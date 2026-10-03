@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["srivilliputtur", "temple", "pilgrimage", "family"],
   publishedAt: "2026-10-01",
   updatedAt: "2026-10-01",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/andal-kovil-sandharshana-kurippu.webp",
+  heroAlt: "Colourful South Indian temple gopuram for Andal Kovil visit notes",
   relatedSlugs: ["srivilliputtur-payanam-vazhikatti", "kudumbam-payanam-yorchanai", "temple-pilgrimage-family-travel"],
   relatedPaths: ["/services/temple-pilgrimage", "/locations/srivilliputtur"],
   body: [

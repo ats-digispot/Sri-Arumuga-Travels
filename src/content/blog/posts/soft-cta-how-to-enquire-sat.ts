@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["checklist", "sedan", "srivilliputtur"],
   publishedAt: "2026-09-20",
   updatedAt: "2026-09-20",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/soft-cta-how-to-enquire-sat.webp",
+  heroAlt: "Phone and notebook ready for a calm travel enquiry",
   relatedSlugs: ["how-to-book-outstation-cab-tamil-nadu", "what-to-ask-before-booking-taxi"],
   relatedPaths: ["/contact", "/services"],
   body: [

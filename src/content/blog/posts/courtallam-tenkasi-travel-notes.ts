@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["courtallam", "monsoon", "family", "checklist"],
   publishedAt: "2026-09-07",
   updatedAt: "2026-09-07",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/courtallam-tenkasi-travel-notes.webp",
+  heroAlt: "Forest waterfall for Courtallam and Tenkasi travel notes",
   relatedSlugs: ["monsoon-travel-tips-tamil-nadu", "tirunelveli-travel-hub", "southern-tamil-nadu-road-trip-planner"],
   relatedPaths: ["/services/outstation-cab", "/locations/srivilliputtur"],
   body: [

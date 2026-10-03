@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["family", "temple", "checklist"],
   publishedAt: "2026-09-11",
   updatedAt: "2026-09-11",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/family-travel-with-elders-tn.webp",
+  heroAlt: "Calm lakeside road suited to family travel with elders",
   relatedSlugs: ["temple-pilgrimage-family-travel", "packing-for-south-india-road-travel", "safe-night-travel-practices-tn"],
   relatedPaths: ["/services/temple-pilgrimage", "/services/outstation-cab"],
   body: [

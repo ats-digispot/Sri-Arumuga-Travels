@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["tirunelveli", "checklist", "coast"],
   publishedAt: "2026-09-06",
   updatedAt: "2026-09-06",
-  heroImage: "/hero-scene.webp",
-  heroAlt: "Southern Tamil Nadu travel",
+  heroImage: "/blog/tirunelveli-travel-hub.webp",
+  heroAlt: "District hub town roads for Tirunelveli as a travel base",
   relatedSlugs: ["courtallam-tenkasi-travel-notes", "thoothukudi-coastal-travel", "kanyakumari-from-southern-tn"],
   relatedPaths: ["/services/outstation-cab"],
   body: [

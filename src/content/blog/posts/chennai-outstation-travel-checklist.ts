@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["chennai", "checklist", "sedan", "night-travel"],
   publishedAt: "2026-09-25",
   updatedAt: "2026-09-25",
-  heroImage: "/hero-highway.webp",
-  heroAlt: "Long-distance road travel checklist",
+  heroImage: "/blog/chennai-outstation-travel-checklist.webp",
+  heroAlt: "Busy coastal city road for a Chennai outstation checklist",
   relatedSlugs: ["overnight-vs-day-travel-outstation", "how-to-book-outstation-cab-tamil-nadu", "what-to-ask-before-booking-taxi"],
   relatedPaths: ["/locations/chennai", "/services/outstation-cab"],
   body: [

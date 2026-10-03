@@ -9,8 +9,8 @@ const post: BlogPost = {
   tagIds: ["checklist", "sedan", "family"],
   publishedAt: "2026-09-20",
   updatedAt: "2026-09-20",
-  heroImage: "/fleet-scene.webp",
-  heroAlt: "Traveler checklist for taxi booking",
+  heroImage: "/blog/what-to-ask-before-booking-taxi.webp",
+  heroAlt: "Laptop and notes for questions before booking a taxi",
   relatedSlugs: ["how-to-book-outstation-cab-tamil-nadu", "local-taxi-vs-outstation-cab", "safe-night-travel-practices-tn"],
   relatedPaths: ["/contact", "/services/local-taxi"],
   body: [
